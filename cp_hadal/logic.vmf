@@ -2,7 +2,7 @@ versioninfo
 {
 	"editorversion" "400"
 	"editorbuild" "6944"
-	"mapversion" "206"
+	"mapversion" "217"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -20,7 +20,7 @@ viewsettings
 world
 {
 	"id" "5"
-	"mapversion" "46"
+	"mapversion" "58"
 	"classname" "worldspawn"
 	"detailmaterial" "detail/detailsprites_2fort"
 	"detailvbsp" "detail_2fort.vbsp"
@@ -2294,7 +2294,7 @@ entity
 		"color" "220 30 220"
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
-		"logicalpos" "[-2296.85 262.059]"
+		"logicalpos" "[-2327.27 302.613]"
 	}
 }
 entity
@@ -2403,7 +2403,7 @@ entity
 		"color" "220 30 220"
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
-		"logicalpos" "[-792.727 448.664]"
+		"logicalpos" "[-823.142 489.218]"
 	}
 }
 entity
@@ -2440,7 +2440,7 @@ entity
 		"color" "220 30 220"
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
-		"logicalpos" "[-785.969 -15.9474]"
+		"logicalpos" "[-816.384 24.6067]"
 	}
 }
 entity
@@ -2946,7 +2946,7 @@ entity
 	"origin" "-624 832 576"
 	"spawnflags" "1"
 	"StartDisabled" "0"
-	"targetname" "door_red_large_dyn_s1_trigger"
+	"targetname" "door_red_small_dyn_1_trigger"
 	"wait" "1"
 	connections
 	{
@@ -3038,7 +3038,7 @@ entity
 		"color" "220 30 220"
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
-		"logicalpos" "[-2321.33 -2154.16]"
+		"logicalpos" "[-2321.33 -2397.49]"
 	}
 }
 entity
@@ -3147,7 +3147,7 @@ entity
 		"color" "220 30 220"
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
-		"logicalpos" "[-827.32 -2498.31]"
+		"logicalpos" "[-827.319 -2741.63]"
 	}
 }
 entity
@@ -3184,7 +3184,7 @@ entity
 		"color" "220 30 220"
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
-		"logicalpos" "[-805.421 -2036.12]"
+		"logicalpos" "[-805.42 -2279.44]"
 	}
 }
 entity
@@ -3853,7 +3853,7 @@ entity
 		"color" "220 30 220"
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
-		"logicalpos" "[-5056.38 -3281.16]"
+		"logicalpos" "[-5083.7 -3476.61]"
 	}
 }
 entity
@@ -3964,7 +3964,7 @@ entity
 		"color" "220 30 220"
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
-		"logicalpos" "[-5052.59 -2822.6]"
+		"logicalpos" "[-5079.91 -3018.04]"
 	}
 }
 entity
@@ -3997,6 +3997,7 @@ entity
 	connections
 	{
 		"OnTrigger" "door_red_large_dyn_6_trigger,Disable,,0,-1"
+		"OnTrigger" "door_red_large_dyn_6_lock,Enable,,0,-1"
 	}
 	"origin" "-168 848 824"
 	editor
@@ -4016,7 +4017,8 @@ entity
 	"targetname" "door_red_s1_lock_relay"
 	connections
 	{
-		"OnTrigger" "door_red_large_dyn_s1_trigger,Disable,,0,-1"
+		"OnTrigger" "door_red_small_dyn_1_trigger,Disable,,0,-1"
+		"OnTrigger" "door_red_small_dyn_1_lock,Enable,,0,-1"
 	}
 	"origin" "-536 952 664"
 	editor
@@ -4024,7 +4026,7 @@ entity
 		"color" "220 30 220"
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
-		"logicalpos" "[-3676.61 -1747.73]"
+		"logicalpos" "[-3676.61 -1991.06]"
 	}
 }
 entity
@@ -4036,7 +4038,7 @@ entity
 	connections
 	{
 		"OnTrue" "door_red_s1_lock_relay,Trigger,,0,-1"
-		"OnFalse" "door_red_large_dyn_s1_trigger,AddOutput,OnEndTouchAll door_red_3_lock_relay:trigger,0,-1"
+		"OnFalse" "door_red_small_dyn_1_trigger,AddOutput,OnEndTouchAll door_red_3_lock_relay:trigger,0,-1"
 	}
 	"origin" "-552 952 664"
 	editor
@@ -4044,7 +4046,81 @@ entity
 		"color" "220 30 220"
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
-		"logicalpos" "[-5053.04 -2123.01]"
+		"logicalpos" "[-5053.04 -2366.34]"
+	}
+}
+entity
+{
+	"id" "61688"
+	"classname" "prop_dynamic"
+	"angles" "0 0 0"
+	"disablereceiveshadows" "0"
+	"disableshadows" "1"
+	"ExplodeDamage" "0"
+	"ExplodeRadius" "0"
+	"fademindist" "-1"
+	"fadescale" "1"
+	"MaxAnimTime" "10"
+	"MinAnimTime" "5"
+	"model" "models/props_gameplay/door_slide_door.mdl"
+	"modelscale" "1.0"
+	"PerformanceMode" "0"
+	"pressuredelay" "0"
+	"RandomAnimation" "0"
+	"renderamt" "255"
+	"rendercolor" "255 255 255"
+	"renderfx" "0"
+	"rendermode" "0"
+	"SetBodyGroup" "0"
+	"skin" "1"
+	"solid" "6"
+	"spawnflags" "0"
+	"StartDisabled" "1"
+	"targetname" "door_red_small_dyn_1_lock"
+	"origin" "-624 829 576.444"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[-814.9 -1822.15]"
+	}
+}
+entity
+{
+	"id" "61905"
+	"classname" "prop_dynamic"
+	"angles" "0 135 0"
+	"disablereceiveshadows" "0"
+	"disableshadows" "1"
+	"ExplodeDamage" "0"
+	"ExplodeRadius" "0"
+	"fademindist" "-1"
+	"fadescale" "1"
+	"MaxAnimTime" "10"
+	"MinAnimTime" "5"
+	"model" "models/props_gameplay/door_slide_large_door.mdl"
+	"modelscale" "1.0"
+	"PerformanceMode" "0"
+	"pressuredelay" "0"
+	"RandomAnimation" "0"
+	"renderamt" "255"
+	"rendercolor" "255 255 255"
+	"renderfx" "0"
+	"rendermode" "0"
+	"SetBodyGroup" "0"
+	"skin" "1"
+	"solid" "6"
+	"spawnflags" "0"
+	"StartDisabled" "1"
+	"targetname" "door_red_large_dyn_6_lock"
+	"origin" "-340 811 736"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[-820.861 -439.693]"
 	}
 }
 cameras

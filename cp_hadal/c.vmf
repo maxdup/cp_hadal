@@ -2,7 +2,7 @@ versioninfo
 {
 	"editorversion" "400"
 	"editorbuild" "6978"
-	"mapversion" "625"
+	"mapversion" "627"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -20,7 +20,7 @@ viewsettings
 world
 {
 	"id" "5"
-	"mapversion" "4"
+	"mapversion" "21"
 	"classname" "worldspawn"
 	"detailmaterial" "detail/detailsprites_2fort"
 	"detailvbsp" "detail_2fort.vbsp"
@@ -3973,7 +3973,7 @@ world
 		side
 		{
 			"id" "1465"
-			"plane" "(-1664 736 448) (-1664 800 448) (-1280 800 448)"
+			"plane" "(-1632 736 448) (-1632 800 448) (-1312 800 448)"
 			"material" "DEV/REFLECTIVITY_10"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 -1 0 0] 0.25"
@@ -3984,7 +3984,7 @@ world
 		side
 		{
 			"id" "1464"
-			"plane" "(-1664 800 320) (-1664 736 320) (-1280 736 320)"
+			"plane" "(-1632 800 320) (-1632 736 320) (-1312 736 320)"
 			"material" "DEV/REFLECTIVITY_20"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 -1 0 0] 0.25"
@@ -3995,7 +3995,7 @@ world
 		side
 		{
 			"id" "1463"
-			"plane" "(-1280 800 320) (-1280 736 320) (-1280 736 448)"
+			"plane" "(-1312 800 320) (-1312 736 320) (-1312 736 448)"
 			"material" "DEV/REFLECTIVITY_10"
 			"uaxis" "[0 1 0 0] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
@@ -4006,7 +4006,7 @@ world
 		side
 		{
 			"id" "1462"
-			"plane" "(-1664 736 320) (-1664 800 320) (-1664 800 448)"
+			"plane" "(-1632 736 320) (-1632 800 320) (-1632 800 448)"
 			"material" "DEV/REFLECTIVITY_10"
 			"uaxis" "[0 1 0 0] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
@@ -4017,7 +4017,7 @@ world
 		side
 		{
 			"id" "1461"
-			"plane" "(-1280 736 320) (-1664 736 320) (-1664 736 448)"
+			"plane" "(-1312 736 320) (-1632 736 320) (-1632 736 448)"
 			"material" "DEV/REFLECTIVITY_20"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
@@ -4028,7 +4028,7 @@ world
 		side
 		{
 			"id" "1460"
-			"plane" "(-1664 800 320) (-1280 800 320) (-1280 800 448)"
+			"plane" "(-1632 800 320) (-1312 800 320) (-1312 800 448)"
 			"material" "DEV/REFLECTIVITY_20"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
@@ -15288,6 +15288,82 @@ world
 		editor
 		{
 			"color" "0 198 127"
+			"visgroupshown" "1"
+			"visgroupautoshown" "1"
+		}
+	}
+	solid
+	{
+		"id" "67774"
+		side
+		{
+			"id" "7316"
+			"plane" "(-832 512 496) (-832 688 496) (-800 688 496)"
+			"material" "DEV/GRAYGRID"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 -1 0 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "7315"
+			"plane" "(-832 688 464) (-832 512 464) (-800 512 464)"
+			"material" "DEV/GRAYGRID"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 -1 0 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "7314"
+			"plane" "(-832 512 464) (-832 688 464) (-832 688 496)"
+			"material" "DEV/REFLECTIVITY_10"
+			"uaxis" "[0 1 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "7313"
+			"plane" "(-800 688 464) (-800 512 464) (-800 512 496)"
+			"material" "DEV/REFLECTIVITY_10"
+			"uaxis" "[0 1 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "7312"
+			"plane" "(-832 688 464) (-800 688 464) (-800 688 496)"
+			"material" "DEV/REFLECTIVITY_10"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "7311"
+			"plane" "(-800 512 464) (-832 512 464) (-832 512 496)"
+			"material" "DEV/GRAYGRID"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		editor
+		{
+			"color" "0 202 251"
 			"visgroupshown" "1"
 			"visgroupautoshown" "1"
 		}

@@ -2,7 +2,7 @@ versioninfo
 {
 	"editorversion" "400"
 	"editorbuild" "6990"
-	"mapversion" "374"
+	"mapversion" "375"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -3145,7 +3145,9 @@ entity
 	connections
 	{
 		"OnFinished" "sscp_time_end,RoundWin,,0,-1"
-		"OnSetupFinished" "setup_gates,Enable,,0,-1"
+		"OnSetupFinished" "door_blu_spawn_a_lower,Open,,0,-1"
+		"OnSetupFinished" "door_blu_spawn_a_upper,Open,,0,-1"
+		"OnSetupFinished" "door_blu_spawn_b,Open,,0,-1"
 	}
 	"origin" "160 504 528"
 	editor
@@ -7769,7 +7771,7 @@ entity
 		"color" "220 30 220"
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
-		"logicalpos" "[-6760.18 6369.79]"
+		"logicalpos" "[-6753.24 6647.41]"
 	}
 }
 entity
@@ -10313,7 +10315,7 @@ entity
 		"color" "220 30 220"
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
-		"logicalpos" "[-5224.59 5889.4]"
+		"logicalpos" "[-5245.41 6389.12]"
 	}
 }
 entity
@@ -11486,7 +11488,7 @@ entity
 		"color" "220 30 220"
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
-		"logicalpos" "[-5219.88 6464.32]"
+		"logicalpos" "[-5226.82 6859.93]"
 	}
 }
 entity
@@ -12132,7 +12134,7 @@ entity
 		"color" "220 30 220"
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
-		"logicalpos" "[-6743.27 7113.92]"
+		"logicalpos" "[-6750.21 7523.42]"
 	}
 }
 entity
@@ -12241,7 +12243,7 @@ entity
 		"color" "220 30 220"
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
-		"logicalpos" "[-5223.15 6975.02]"
+		"logicalpos" "[-5223.15 7349.81]"
 	}
 }
 entity
@@ -12278,7 +12280,7 @@ entity
 		"color" "220 30 220"
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
-		"logicalpos" "[-5215.41 7462.21]"
+		"logicalpos" "[-5187.65 7781.48]"
 	}
 }
 entity

@@ -2,7 +2,7 @@ versioninfo
 {
 	"editorversion" "400"
 	"editorbuild" "6990"
-	"mapversion" "380"
+	"mapversion" "382"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -20,7 +20,7 @@ viewsettings
 world
 {
 	"id" "5"
-	"mapversion" "1"
+	"mapversion" "7"
 	"classname" "worldspawn"
 	"detailmaterial" "detail/detailsprites_2fort"
 	"detailvbsp" "detail_2fort.vbsp"
@@ -2418,6 +2418,7 @@ entity
 		"OnCapTeam2" "cp_B_prop,Skin,2,0,-1"
 		"OnCapTeam2" "sscp_timer,AddTeamTime,3 300,0,-1"
 		"OnCapTeam2" "relay_B,Trigger,,0,-1"
+		"OnCapTeam2" "sscp_gamerules,SetRedTeamRespawnWaveTime,12,0,-1"
 	}
 	solid
 	{
@@ -2652,7 +2653,7 @@ entity
 		"OnCapTeam2" "cp_C_prop,Skin,2,0,-1"
 		"OnCapTeam2" "sscp_timer,AddTeamTime,3 300,0,-1"
 		"OnCapTeam2" "relay_C,Trigger,,0,-1"
-		"OnCapTeam2" "sscp_gamerules,SetRedTeamRespawnWaveTime,12,0,-1"
+		"OnCapTeam2" "sscp_gamerules,SetRedTeamRespawnWaveTime,14,0,-1"
 	}
 	solid
 	{
@@ -5624,7 +5625,7 @@ entity
 	"disablereceiveshadows" "0"
 	"movedir" "-35 -45 0"
 	"movedistance" "430"
-	"origin" "-776 1544 264"
+	"origin" "-752 1520 288"
 	"renderamt" "255"
 	"rendercolor" "255 255 255"
 	"renderfx" "0"
@@ -5639,7 +5640,7 @@ entity
 		side
 		{
 			"id" "665"
-			"plane" "(-704 1312 416) (-544 1472 416) (-528 1456 400)"
+			"plane" "(-664 1272 424) (-680 1288 440) (-520 1448 440)"
 			"material" "DEV/REFLECTIVITY_70"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 -1 0 0] 0.25"
@@ -5650,7 +5651,7 @@ entity
 		side
 		{
 			"id" "664"
-			"plane" "(-992 1600 96) (-832 1760 96) (-848 1776 112)"
+			"plane" "(-984 1592 136) (-968 1576 120) (-808 1736 120)"
 			"material" "DEV/REFLECTIVITY_70"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 -1 0 0] 0.25"
@@ -5661,7 +5662,7 @@ entity
 		side
 		{
 			"id" "663"
-			"plane" "(-1008 1616 112) (-704 1312 416) (-688 1296 400)"
+			"plane" "(-968 1576 120) (-984 1592 136) (-680 1288 440)"
 			"material" "DEV/REFLECTIVITY_70"
 			"uaxis" "[0 1 0 0] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
@@ -5672,7 +5673,7 @@ entity
 		side
 		{
 			"id" "662"
-			"plane" "(-832 1760 96) (-528 1456 400) (-544 1472 416)"
+			"plane" "(-824 1752 136) (-808 1736 120) (-504 1432 424)"
 			"material" "DEV/REFLECTIVITY_70"
 			"uaxis" "[0 1 0 0] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
@@ -5683,7 +5684,7 @@ entity
 		side
 		{
 			"id" "661"
-			"plane" "(-704 1312 416) (-1008 1616 112) (-848 1776 112)"
+			"plane" "(-520 1448 440) (-680 1288 440) (-984 1592 136)"
 			"material" "DEV/REFLECTIVITY_70"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 -1 0 0] 0.25"
@@ -5694,7 +5695,7 @@ entity
 		side
 		{
 			"id" "660"
-			"plane" "(-992 1600 96) (-688 1296 400) (-528 1456 400)"
+			"plane" "(-808 1736 120) (-968 1576 120) (-664 1272 424)"
 			"material" "DEV/REFLECTIVITY_70"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 -1 0 0] 0.25"

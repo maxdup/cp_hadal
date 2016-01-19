@@ -2,7 +2,7 @@ versioninfo
 {
 	"editorversion" "400"
 	"editorbuild" "7006"
-	"mapversion" "428"
+	"mapversion" "432"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -20,7 +20,7 @@ viewsettings
 world
 {
 	"id" "5"
-	"mapversion" "2"
+	"mapversion" "100"
 	"classname" "worldspawn"
 	"detailmaterial" "detail/detailsprites_2fort"
 	"detailvbsp" "detail_2fort.vbsp"
@@ -1952,9 +1952,9 @@ entity
 		side
 		{
 			"id" "479"
-			"plane" "(-442.981 -10.0387 656) (-624 170.981 656) (-442.981 352 656)"
+			"plane" "(-408.977 -10.0391 656) (-590 170.983 656) (-408.984 352 656)"
 			"material" "TOOLS/TOOLSTRIGGER"
-			"uaxis" "[1 0 0 0] 0.25"
+			"uaxis" "[1 0 0 -8] 0.25"
 			"vaxis" "[0 -1 0 0] 0.25"
 			"rotation" "0"
 			"lightmapscale" "512"
@@ -1963,9 +1963,9 @@ entity
 		side
 		{
 			"id" "478"
-			"plane" "(-261.961 170.981 496) (-442.981 352 496) (-624 170.981 496)"
+			"plane" "(-590 170.977 496) (-408.973 -10.0469 496) (-227.965 170.98 496)"
 			"material" "TOOLS/TOOLSTRIGGER"
-			"uaxis" "[1 0 0 0] 0.25"
+			"uaxis" "[1 0 0 -8] 0.25"
 			"vaxis" "[0 -1 0 0] 0.25"
 			"rotation" "0"
 			"lightmapscale" "512"
@@ -1974,7 +1974,7 @@ entity
 		side
 		{
 			"id" "477"
-			"plane" "(-442.981 352 496) (-261.961 170.981 496) (-261.961 170.981 656)"
+			"plane" "(-408.98 352 496) (-227.961 170.98 496) (-227.961 170.984 656)"
 			"material" "TOOLS/TOOLSTRIGGER"
 			"uaxis" "[0 1 0 0] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
@@ -1985,7 +1985,7 @@ entity
 		side
 		{
 			"id" "476"
-			"plane" "(-442.981 -10.0387 496) (-624 170.981 496) (-624 170.981 656)"
+			"plane" "(-408.984 -10.0391 496) (-590 170.979 496) (-590 170.98 656)"
 			"material" "TOOLS/TOOLSTRIGGER"
 			"uaxis" "[0 1 0 0] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
@@ -1996,7 +1996,7 @@ entity
 		side
 		{
 			"id" "475"
-			"plane" "(-261.961 170.981 496) (-442.981 -10.0387 496) (-442.981 -10.0387 656)"
+			"plane" "(-227.965 170.98 496) (-408.983 -10.037 496) (-408.98 -10.0352 656)"
 			"material" "TOOLS/TOOLSTRIGGER"
 			"uaxis" "[0 1 0 0] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
@@ -2007,7 +2007,7 @@ entity
 		side
 		{
 			"id" "474"
-			"plane" "(-624 170.981 496) (-442.981 352 496) (-442.981 352 656)"
+			"plane" "(-590 170.984 496) (-408.984 352 496) (-408.98 352 656)"
 			"material" "TOOLS/TOOLSTRIGGER"
 			"uaxis" "[0 1 0 0] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
@@ -2061,10 +2061,10 @@ entity
 		side
 		{
 			"id" "485"
-			"plane" "(-376.513 101.684 629) (-512.277 237.449 629) (-511.57 238.156 629)"
+			"plane" "(-478 238 640) (-344 104 640) (-345 103 640)"
 			"material" "METAL/CHICKEN_WIRE001"
-			"uaxis" "[1 0 0 0] 0.25"
-			"vaxis" "[0 -1 0 0] 0.25"
+			"uaxis" "[1 0 0 0.796875] 0.25"
+			"vaxis" "[0 -1 0 5.29694] 0.25"
 			"rotation" "0"
 			"lightmapscale" "512"
 			"smoothing_groups" "0"
@@ -2072,10 +2072,10 @@ entity
 		side
 		{
 			"id" "484"
-			"plane" "(-375.806 102.391 512) (-511.57 238.156 512) (-512.277 237.449 512)"
+			"plane" "(-344 104 512) (-478 238 512) (-479 237 512)"
 			"material" "METAL/CHICKEN_WIRE001"
-			"uaxis" "[1 0 0 0] 0.25"
-			"vaxis" "[0 -1 0 0] 0.25"
+			"uaxis" "[1 0 0 0.796875] 0.25"
+			"vaxis" "[0 -1 0 5.29694] 0.25"
 			"rotation" "0"
 			"lightmapscale" "512"
 			"smoothing_groups" "0"
@@ -2083,9 +2083,9 @@ entity
 		side
 		{
 			"id" "483"
-			"plane" "(-511.57 238.156 512) (-375.806 102.391 512) (-375.806 102.391 629)"
+			"plane" "(-344 104 640) (-478 238 640) (-478 238 512)"
 			"material" "METAL/CHICKEN_WIRE001"
-			"uaxis" "[0 1 0 0] 0.25"
+			"uaxis" "[0 1 0 -5.29694] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
 			"rotation" "0"
 			"lightmapscale" "512"
@@ -2094,9 +2094,9 @@ entity
 		side
 		{
 			"id" "482"
-			"plane" "(-376.513 101.684 512) (-512.277 237.449 512) (-512.277 237.449 629)"
+			"plane" "(-479 237 640) (-345 103 640) (-345 103 512)"
 			"material" "METAL/CHICKEN_WIRE001"
-			"uaxis" "[0 1 0 0] 0.25"
+			"uaxis" "[0 1 0 -5.29694] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
 			"rotation" "0"
 			"lightmapscale" "512"
@@ -2105,9 +2105,9 @@ entity
 		side
 		{
 			"id" "481"
-			"plane" "(-375.806 102.391 512) (-376.513 101.684 512) (-376.513 101.684 629)"
+			"plane" "(-345 103 640) (-344 104 640) (-344 104 512)"
 			"material" "METAL/CHICKEN_WIRE001"
-			"uaxis" "[0 1 0 0] 0.25"
+			"uaxis" "[0 1 0 -5.29694] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
 			"rotation" "0"
 			"lightmapscale" "512"
@@ -2116,9 +2116,9 @@ entity
 		side
 		{
 			"id" "480"
-			"plane" "(-512.277 237.449 512) (-511.57 238.156 512) (-511.57 238.156 629)"
+			"plane" "(-478 238 640) (-479 237 640) (-479 237 512)"
 			"material" "METAL/CHICKEN_WIRE001"
-			"uaxis" "[0 1 0 0] 0.25"
+			"uaxis" "[0 1 0 -5.29694] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
 			"rotation" "0"
 			"lightmapscale" "512"
@@ -2167,7 +2167,7 @@ entity
 	"spawnflags" "0"
 	"StartDisabled" "0"
 	"targetname" "door_red_large_dyn_4_prop"
-	"origin" "-463.487 150.475 576"
+	"origin" "-432 150 576"
 	editor
 	{
 		"color" "220 30 220"
@@ -5690,12 +5690,12 @@ entity
 {
 	"id" "61006"
 	"classname" "info_observer_point"
-	"angles" "15 34.5 0"
+	"angles" "15 25.5 0"
 	"defaultwelcome" "1"
 	"fov" "0"
 	"StartDisabled" "0"
 	"TeamNum" "0"
-	"origin" "-368 96 961"
+	"origin" "-512 136 1018"
 	editor
 	{
 		"color" "220 30 220"

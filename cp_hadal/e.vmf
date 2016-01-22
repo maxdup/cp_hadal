@@ -1,8 +1,8 @@
 versioninfo
 {
 	"editorversion" "400"
-	"editorbuild" "7006"
-	"mapversion" "1414"
+	"editorbuild" "7026"
+	"mapversion" "1421"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -20,7 +20,7 @@ viewsettings
 world
 {
 	"id" "1"
-	"mapversion" "43"
+	"mapversion" "27"
 	"classname" "worldspawn"
 	"detailmaterial" "detail/detailsprites_2fort"
 	"detailvbsp" "detail_2fort.vbsp"
@@ -359,10 +359,10 @@ world
 		{
 			"id" "20800"
 			"plane" "(-448 960 896) (-224 736 896) (32 992 896)"
-			"material" "DEV/GRAYGRID"
-			"uaxis" "[1 0 0 0] 0.25"
-			"vaxis" "[0 -1 0 0] 0.25"
-			"rotation" "0"
+			"material" "CONCRETE/CONCRETEWALL001E"
+			"uaxis" "[0.707107 0.707107 0 0] 0.25"
+			"vaxis" "[0.707107 -0.707107 0 0] 0.25"
+			"rotation" "45"
 			"lightmapscale" "16"
 			"smoothing_groups" "0"
 		}
@@ -19721,6 +19721,82 @@ world
 			"visgroupautoshown" "1"
 		}
 	}
+	solid
+	{
+		"id" "101980"
+		side
+		{
+			"id" "32390"
+			"plane" "(-128 1280 1280) (128 1024 1280) (64 960 1280)"
+			"material" "DEV/GRAYGRID"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 -1 0 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "32389"
+			"plane" "(-192 1216 128) (64 960 128) (128 1024 128)"
+			"material" "DEV/GRAYGRID"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 -1 0 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "32388"
+			"plane" "(-128 1280 128) (-128 1280 1280) (-192 1216 1280)"
+			"material" "CONCRETE/CONCRETEWALL011"
+			"uaxis" "[0 1 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "32387"
+			"plane" "(64 960 128) (64 960 1280) (128 1024 1280)"
+			"material" "CONCRETE/CONCRETEWALL011"
+			"uaxis" "[0 1 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "32386"
+			"plane" "(128 1024 128) (128 1024 1280) (-128 1280 1280)"
+			"material" "CONCRETE/CONCRETEWALL011"
+			"uaxis" "[0 1 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "32385"
+			"plane" "(-192 1216 128) (-192 1216 1280) (64 960 1280)"
+			"material" "CONCRETE/CONCRETEWALL011"
+			"uaxis" "[0 1 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		editor
+		{
+			"color" "0 202 251"
+			"visgroupshown" "1"
+			"visgroupautoshown" "1"
+		}
+	}
 }
 entity
 {
@@ -26577,7 +26653,7 @@ entity
 	"EndV" "0"
 	"fademindist" "-1"
 	"material" "hadal/sector_c"
-	"sides" ""
+	"sides" "32385"
 	"StartU" "0"
 	"StartV" "-1"
 	"uv0" "-64 -16 0"
@@ -26605,7 +26681,7 @@ entity
 	"EndV" "0"
 	"fademindist" "-1"
 	"material" "hadal/sector_c_stripe"
-	"sides" ""
+	"sides" "32385"
 	"StartU" "0"
 	"StartV" "1"
 	"uv0" "-7.96307 -16.0311 0"
@@ -27228,7 +27304,7 @@ entity
 	"EndV" "0"
 	"fademindist" "-1"
 	"material" "hadal/sector_c_stripe"
-	"sides" ""
+	"sides" "32385"
 	"StartU" "0"
 	"StartV" "1"
 	"uv0" "-11.3935 -19.9825 0"
@@ -27257,7 +27333,7 @@ entity
 	"EndV" "0"
 	"fademindist" "-1"
 	"material" "hadal/sector_c_stripe"
-	"sides" ""
+	"sides" "32385"
 	"StartU" "0"
 	"StartV" "1"
 	"uv0" "-74.4942 -7.99999 0"
@@ -27286,7 +27362,7 @@ entity
 	"EndV" "0"
 	"fademindist" "-1"
 	"material" "hadal/sector_c"
-	"sides" ""
+	"sides" "32385"
 	"StartU" "0"
 	"StartV" "-1"
 	"uv0" "-64 -16 0"
@@ -39449,6 +39525,64 @@ entity
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
 		"logicalpos" "[0 2500]"
+	}
+}
+entity
+{
+	"id" "101985"
+	"classname" "info_overlay"
+	"angles" "0 0 0"
+	"BasisNormal" "-0.707107 -0.707107 -0"
+	"BasisOrigin" "-65.0003 1087.68 504"
+	"BasisU" "-0.707107 0.707107 0"
+	"BasisV" "0 0 -1"
+	"EndU" "1.00251"
+	"EndV" "0"
+	"fademindist" "-1"
+	"material" "hadal/sector_c_stripe"
+	"sides" "32385"
+	"StartU" "0"
+	"StartV" "1"
+	"uv0" "-181.498 -7.99999 0"
+	"uv1" "-181.498 7.99999 0"
+	"uv2" "181.498 7.99999 0"
+	"uv3" "181.498 -7.99999 0"
+	"origin" "-65.0003 1087.68 504"
+	editor
+	{
+		"color" "80 150 225"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 500]"
+	}
+}
+entity
+{
+	"id" "101985"
+	"classname" "info_overlay"
+	"angles" "0 0 0"
+	"BasisNormal" "-0.707107 0.707107 0"
+	"BasisOrigin" "-157.312 1252.48 504"
+	"BasisU" "0.707107 0.707107 0"
+	"BasisV" "0 0 -1"
+	"EndU" "0"
+	"EndV" "1"
+	"fademindist" "-1"
+	"material" "hadal/sector_c_stripe"
+	"sides" "32388"
+	"StartU" "1.1381"
+	"StartV" "0"
+	"uv0" "-51.5042 -8 0"
+	"uv1" "-51.5042 8 0"
+	"uv2" "51.5042 8 0"
+	"uv3" "51.5042 -8 0"
+	"origin" "-157.312 1252.48 504"
+	editor
+	{
+		"color" "80 150 225"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 1500]"
 	}
 }
 cameras

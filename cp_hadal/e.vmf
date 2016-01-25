@@ -2,7 +2,7 @@ versioninfo
 {
 	"editorversion" "400"
 	"editorbuild" "7026"
-	"mapversion" "1497"
+	"mapversion" "1501"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -20,7 +20,7 @@ viewsettings
 world
 {
 	"id" "1"
-	"mapversion" "204"
+	"mapversion" "10"
 	"classname" "worldspawn"
 	"detailmaterial" "detail/detailsprites_2fort"
 	"detailvbsp" "detail_2fort.vbsp"
@@ -20704,7 +20704,7 @@ world
 		side
 		{
 			"id" "32849"
-			"plane" "(-544 80 256) (112 80 256) (112 96 256)"
+			"plane" "(-560 96 256) (-560 80 256) (112 80 256)"
 			"material" "CUSTOMDEV/DEV_MEASUREWALL01RED"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 -1 0 0] 0.25"
@@ -20715,7 +20715,7 @@ world
 		side
 		{
 			"id" "32848"
-			"plane" "(-544 80 256) (-544 96 256) (-544 96 496)"
+			"plane" "(-560 80 496) (-560 80 256) (-560 96 256)"
 			"material" "CUSTOMDEV/DEV_MEASUREWALL01RED"
 			"uaxis" "[0 1 0 0] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
@@ -20726,10 +20726,10 @@ world
 		side
 		{
 			"id" "32847"
-			"plane" "(112 96 256) (112 80 256) (112 80 496)"
+			"plane" "(112 96 496) (112 96 256) (112 80 256)"
 			"material" "CONCRETE/COMPUTERWALL004"
-			"uaxis" "[0 -1 0 832] 0.25"
-			"vaxis" "[0 0 1 0] 0.25"
+			"uaxis" "[0 1 0 832] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"
 			"smoothing_groups" "0"
@@ -20737,7 +20737,7 @@ world
 		side
 		{
 			"id" "32846"
-			"plane" "(-544 96 256) (112 96 256) (112 96 496)"
+			"plane" "(-560 96 496) (-560 96 256) (112 96 256)"
 			"material" "CONCRETE/COMPUTERWALL004"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 0 1 0] 0.25"
@@ -20748,8 +20748,8 @@ world
 		side
 		{
 			"id" "32845"
-			"plane" "(112 80 256) (-544 80 256) (-544 80 496)"
-			"material" "DEV/REFLECTIVITY_10"
+			"plane" "(112 80 496) (112 80 256) (-560 80 256)"
+			"material" "CONCRETE/CONCRETEWALL003D"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
 			"rotation" "0"
@@ -20759,7 +20759,7 @@ world
 		side
 		{
 			"id" "32844"
-			"plane" "(-544 96 496) (112 96 496) (112 80 496)"
+			"plane" "(-560 80 496) (-560 96 496) (112 96 496)"
 			"material" "CUSTOMDEV/DEV_MEASUREWALL01RED"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 -1 0 0] 0.25"
@@ -21080,11 +21080,11 @@ world
 	}
 	solid
 	{
-		"id" "104253"
+		"id" "105563"
 		side
 		{
-			"id" "32916"
-			"plane" "(-512 896 656) (-448 960 656) (-192 704 656)"
+			"id" "33150"
+			"plane" "(-192 704 656) (-256 640 656) (-424 808 656)"
 			"material" "METAL/IBEAM001B"
 			"uaxis" "[0.707107 0.707107 0 151.845] 0.25"
 			"vaxis" "[-0.5 0.5 -0.707107 831.448] 0.25"
@@ -21094,8 +21094,8 @@ world
 		}
 		side
 		{
-			"id" "32915"
-			"plane" "(-448 960 128) (-512 896 128) (-256 640 128)"
+			"id" "33149"
+			"plane" "(-256 640 128) (-192 704 128) (-360 872 128)"
 			"material" "DEV/GRAYGRID"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 -1 0 0] 0.25"
@@ -21105,7 +21105,83 @@ world
 		}
 		side
 		{
-			"id" "32914"
+			"id" "33148"
+			"plane" "(-256 640 128) (-256 640 656) (-192 704 656)"
+			"material" "CONCRETE/CONCRETEWALL011"
+			"uaxis" "[0 1 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "33147"
+			"plane" "(-192 704 128) (-192 704 656) (-360 872 656)"
+			"material" "CONCRETE/CONCRETEWALL011"
+			"uaxis" "[0 1 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "33146"
+			"plane" "(-424 808 128) (-424 808 656) (-256 640 656)"
+			"material" "CONCRETE/CONCRETEWALL011"
+			"uaxis" "[0 1 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "33145"
+			"plane" "(-360 872 128) (-360 872 656) (-424 808 656)"
+			"material" "METAL/IBEAM001B"
+			"uaxis" "[0 1 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		editor
+		{
+			"color" "0 202 251"
+			"visgroupshown" "1"
+			"visgroupautoshown" "1"
+		}
+	}
+	solid
+	{
+		"id" "105573"
+		side
+		{
+			"id" "33162"
+			"plane" "(-480 864 656) (-512 896 656) (-448 960 656)"
+			"material" "METAL/IBEAM001B"
+			"uaxis" "[0.707107 0.707107 0 151.845] 0.25"
+			"vaxis" "[-0.5 0.5 -0.707107 831.448] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "33161"
+			"plane" "(-416 928 128) (-448 960 128) (-512 896 128)"
+			"material" "DEV/GRAYGRID"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 -1 0 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "33160"
 			"plane" "(-512 896 128) (-448 960 128) (-448 960 656)"
 			"material" "CONCRETE/CONCRETEWALL011"
 			"uaxis" "[0 1 0 0] 0.25"
@@ -21116,8 +21192,8 @@ world
 		}
 		side
 		{
-			"id" "32913"
-			"plane" "(-192 704 128) (-256 640 128) (-256 640 656)"
+			"id" "33159"
+			"plane" "(-448 960 128) (-416 928 128) (-416 928 656)"
 			"material" "CONCRETE/CONCRETEWALL011"
 			"uaxis" "[0 1 0 0] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
@@ -21127,8 +21203,8 @@ world
 		}
 		side
 		{
-			"id" "32912"
-			"plane" "(-448 960 128) (-192 704 128) (-192 704 656)"
+			"id" "33158"
+			"plane" "(-480 864 128) (-512 896 128) (-512 896 656)"
 			"material" "CONCRETE/CONCRETEWALL011"
 			"uaxis" "[0 1 0 0] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
@@ -21138,9 +21214,85 @@ world
 		}
 		side
 		{
-			"id" "32911"
-			"plane" "(-256 640 128) (-512 896 128) (-512 896 656)"
+			"id" "33157"
+			"plane" "(-416 928 128) (-480 864 128) (-480 864 656)"
+			"material" "METAL/IBEAM001B"
+			"uaxis" "[0 1 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		editor
+		{
+			"color" "0 202 251"
+			"visgroupshown" "1"
+			"visgroupautoshown" "1"
+		}
+	}
+	solid
+	{
+		"id" "105592"
+		side
+		{
+			"id" "33174"
+			"plane" "(-416 928 656) (-360 872 656) (-392 840 656)"
+			"material" "METAL/IBEAM001B"
+			"uaxis" "[0.707107 0.707107 0 151.845] 0.25"
+			"vaxis" "[-0.5 0.5 -0.707107 831.448] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "33173"
+			"plane" "(-416 928 128) (-448 896 128) (-392 840 128)"
+			"material" "DEV/GRAYGRID"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 -1 0 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "33172"
+			"plane" "(-360 872 128) (-360 872 656) (-416 928 656)"
 			"material" "CONCRETE/CONCRETEWALL011"
+			"uaxis" "[0 1 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "33171"
+			"plane" "(-392 840 128) (-392 840 656) (-360 872 656)"
+			"material" "METAL/IBEAM001B"
+			"uaxis" "[0 1 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "33170"
+			"plane" "(-416 928 128) (-416 928 656) (-448 896 656)"
+			"material" "METAL/IBEAM001B"
+			"uaxis" "[0 1 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "33169"
+			"plane" "(-448 896 128) (-448 896 656) (-392 840 656)"
+			"material" "METAL/IBEAM001B"
 			"uaxis" "[0 1 0 0] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
 			"rotation" "0"
@@ -27736,7 +27888,7 @@ entity
 	"EndV" "1"
 	"fademindist" "-1"
 	"material" "hadal/sector_a_stripe"
-	"sides" "32912"
+	"sides" "33147"
 	"StartU" "14.8492"
 	"StartV" "0"
 	"uv0" "-118.794 -7.99999 0"
@@ -27764,7 +27916,7 @@ entity
 	"EndV" "0"
 	"fademindist" "-1"
 	"material" "hadal/sector_a_stripe"
-	"sides" "32913"
+	"sides" ""
 	"StartU" "0"
 	"StartV" "1"
 	"uv0" "-45.2548 -8 0"
@@ -27792,7 +27944,7 @@ entity
 	"EndV" "0"
 	"fademindist" "-1"
 	"material" "hadal/sector_a"
-	"sides" "32912"
+	"sides" "33147"
 	"StartU" "0"
 	"StartV" "1"
 	"uv0" "-64 -16 0"
@@ -27820,7 +27972,7 @@ entity
 	"EndV" "1"
 	"fademindist" "-1"
 	"material" "hadal/sector_a_stripe"
-	"sides" "32912"
+	"sides" "33147"
 	"StartU" "1"
 	"StartV" "0"
 	"uv0" "-7.9362 -15.3179 0"
@@ -27848,7 +28000,7 @@ entity
 	"EndV" "0"
 	"fademindist" "-1"
 	"material" "hadal/sector_a_stripe"
-	"sides" "32911"
+	"sides" ""
 	"StartU" "0"
 	"StartV" "1"
 	"uv0" "-90.5096 -8 0"

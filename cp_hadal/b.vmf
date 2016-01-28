@@ -2,7 +2,7 @@ versioninfo
 {
 	"editorversion" "400"
 	"editorbuild" "7026"
-	"mapversion" "353"
+	"mapversion" "355"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -26,7 +26,7 @@ viewsettings
 world
 {
 	"id" "1"
-	"mapversion" "7"
+	"mapversion" "204"
 	"classname" "worldspawn"
 	"detailmaterial" "detail/detailsprites_2fort"
 	"detailvbsp" "detail_2fort.vbsp"
@@ -10012,7 +10012,7 @@ world
 		side
 		{
 			"id" "16268"
-			"plane" "(1216 656 960) (2192 656 960) (2192 0 960)"
+			"plane" "(1216 0 896) (1216 656 896) (2192 656 896)"
 			"material" "TOOLS/TOOLSNODRAW"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 -1 0 0] 0.25"
@@ -10023,10 +10023,10 @@ world
 		side
 		{
 			"id" "16267"
-			"plane" "(1216 656 864) (1216 0 864) (2192 0 864)"
+			"plane" "(2192 656 864) (1216 656 864) (1216 0 864)"
 			"material" "CONCRETE/CONCRETEWALL001E"
-			"uaxis" "[0 1 0 0] 0.25"
-			"vaxis" "[1 0 0 0] 0.25"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 -1 0 0] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"
 			"smoothing_groups" "0"
@@ -10034,7 +10034,7 @@ world
 		side
 		{
 			"id" "16266"
-			"plane" "(1216 656 864) (1216 656 960) (1216 0 960)"
+			"plane" "(1216 0 864) (1216 656 864) (1216 656 896)"
 			"material" "TOOLS/TOOLSNODRAW"
 			"uaxis" "[0 1 0 0] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
@@ -10045,7 +10045,7 @@ world
 		side
 		{
 			"id" "16265"
-			"plane" "(2192 656 864) (2192 656 960) (1216 656 960)"
+			"plane" "(1216 656 864) (2192 656 864) (2192 656 896)"
 			"material" "TOOLS/TOOLSNODRAW"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
@@ -10056,7 +10056,7 @@ world
 		side
 		{
 			"id" "16264"
-			"plane" "(2192 0 864) (2192 0 960) (2192 656 960)"
+			"plane" "(2192 656 864) (2192 0 864) (2192 0 896)"
 			"material" "TOOLS/TOOLSNODRAW"
 			"uaxis" "[0 1 0 0] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
@@ -10067,7 +10067,7 @@ world
 		side
 		{
 			"id" "16263"
-			"plane" "(1216 0 864) (1216 0 960) (2192 0 960)"
+			"plane" "(2192 0 864) (1216 0 864) (1216 0 896)"
 			"material" "CONCRETE/CONCRETEWALL001E"
 			"uaxis" "[0 0 -1 384] 0.25"
 			"vaxis" "[1 0 0 0] 0.25"
@@ -28131,6 +28131,83 @@ world
 			"plane" "(1216 656 416) (1216 640 416) (1216 640 448)"
 			"material" "TOOLS/TOOLSNODRAW"
 			"uaxis" "[0 1 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		editor
+		{
+			"color" "0 107 112"
+			"visgroupid" "19"
+			"visgroupshown" "1"
+			"visgroupautoshown" "1"
+		}
+	}
+	solid
+	{
+		"id" "120440"
+		side
+		{
+			"id" "27617"
+			"plane" "(1216 0 960) (1216 64 960) (2192 64 960)"
+			"material" "TOOLS/TOOLSNODRAW"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 -1 0 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "27616"
+			"plane" "(2192 64 896) (1216 64 896) (1216 0 896)"
+			"material" "CONCRETE/CONCRETEWALL001E"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 -1 0 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "27615"
+			"plane" "(1216 0 896) (1216 64 896) (1216 64 960)"
+			"material" "TOOLS/TOOLSNODRAW"
+			"uaxis" "[0 1 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "27614"
+			"plane" "(1216 64 896) (2192 64 896) (2192 64 960)"
+			"material" "TOOLS/TOOLSNODRAW"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "27613"
+			"plane" "(2192 64 896) (2192 0 896) (2192 0 960)"
+			"material" "TOOLS/TOOLSNODRAW"
+			"uaxis" "[0 1 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "27612"
+			"plane" "(2192 0 896) (1216 0 896) (1216 0 960)"
+			"material" "CONCRETE/CONCRETEWALL001E"
+			"uaxis" "[1 0 0 384] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"

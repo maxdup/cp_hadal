@@ -2,7 +2,7 @@ versioninfo
 {
 	"editorversion" "400"
 	"editorbuild" "7026"
-	"mapversion" "285"
+	"mapversion" "291"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -20,7 +20,7 @@ viewsettings
 world
 {
 	"id" "1"
-	"mapversion" "1"
+	"mapversion" "64"
 	"classname" "worldspawn"
 	"detailmaterial" "detail/detailsprites_2fort"
 	"detailvbsp" "detail_2fort.vbsp"
@@ -10397,10 +10397,10 @@ world
 		{
 			"id" "8270"
 			"plane" "(-496 -1312 480) (-496 -1312 704) (-496 -2176 704)"
-			"material" "CONCRETE/COMPUTERWALL005A"
-			"uaxis" "[0 1 0 0] 0.25"
-			"vaxis" "[0 0 -1 0] 0.25"
-			"rotation" "0"
+			"material" "HADAL/METAL_METALPANEL001A_HADAL"
+			"uaxis" "[0 0 1 -896] 0.25"
+			"vaxis" "[0 1 0 0] 0.25"
+			"rotation" "90"
 			"lightmapscale" "16"
 			"smoothing_groups" "0"
 		}
@@ -10419,10 +10419,10 @@ world
 		{
 			"id" "8268"
 			"plane" "(-496 -2176 480) (-496 -2176 704) (-416 -2176 704)"
-			"material" "CONCRETE/COMPUTERWALL005A"
-			"uaxis" "[-1 0 0 -127.998] 0.25"
-			"vaxis" "[0 0 -1 0] 0.25"
-			"rotation" "0"
+			"material" "HADAL/METAL_METALPANEL001A_HADAL"
+			"uaxis" "[0 0 1 -896] 0.25"
+			"vaxis" "[-1 0 0 0] 0.25"
+			"rotation" "90"
 			"lightmapscale" "16"
 			"smoothing_groups" "0"
 		}
@@ -50893,7 +50893,7 @@ entity
 	"lightmapresolutionx" "32"
 	"lightmapresolutiony" "32"
 	"model" "models/props_oceanic/tech_pipe_big_128.mdl"
-	"skin" "2"
+	"skin" "0"
 	"solid" "6"
 	"origin" "-468 -1900 384"
 	editor
@@ -50914,7 +50914,7 @@ entity
 	"lightmapresolutionx" "32"
 	"lightmapresolutiony" "32"
 	"model" "models/props_oceanic/tech_pipe_big_corner.mdl"
-	"skin" "2"
+	"skin" "0"
 	"solid" "6"
 	"origin" "-452 -1900 285"
 	editor
@@ -50935,7 +50935,7 @@ entity
 	"lightmapresolutionx" "32"
 	"lightmapresolutiony" "32"
 	"model" "models/props_oceanic/tech_pipe_big_corner.mdl"
-	"skin" "2"
+	"skin" "0"
 	"solid" "6"
 	"origin" "-452 -1796 285"
 	editor
@@ -50956,7 +50956,7 @@ entity
 	"lightmapresolutionx" "32"
 	"lightmapresolutiony" "32"
 	"model" "models/props_oceanic/tech_pipe_big_128.mdl"
-	"skin" "2"
+	"skin" "0"
 	"solid" "6"
 	"origin" "-468 -1796 384"
 	editor
@@ -50977,7 +50977,7 @@ entity
 	"lightmapresolutionx" "32"
 	"lightmapresolutiony" "32"
 	"model" "models/props_oceanic/tech_pipe_big_corner.mdl"
-	"skin" "2"
+	"skin" "0"
 	"solid" "6"
 	"origin" "-452 -2004 285"
 	editor
@@ -50998,7 +50998,7 @@ entity
 	"lightmapresolutionx" "32"
 	"lightmapresolutiony" "32"
 	"model" "models/props_oceanic/tech_pipe_big_128.mdl"
-	"skin" "2"
+	"skin" "0"
 	"solid" "6"
 	"origin" "-468 -2004 384"
 	editor
@@ -54003,6 +54003,35 @@ entity
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
 		"logicalpos" "[0 6500]"
+	}
+}
+entity
+{
+	"id" "26068"
+	"classname" "info_overlay"
+	"angles" "0 0 0"
+	"BasisNormal" "-1 0 0"
+	"BasisOrigin" "-416 -1740 4"
+	"BasisU" "0 1 0"
+	"BasisV" "0 0 -1"
+	"EndU" "0"
+	"EndV" "1"
+	"fademindist" "-1"
+	"material" "construction/signs/sign043a"
+	"sides" "7957"
+	"StartU" "1"
+	"StartV" "0"
+	"uv0" "-35.7748 -31.9455 0"
+	"uv1" "-35.7748 31.9455 0"
+	"uv2" "35.7748 31.9455 0"
+	"uv3" "35.7748 -31.9455 0"
+	"origin" "-416 -1740 4"
+	editor
+	{
+		"color" "80 150 225"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
 	}
 }
 cameras

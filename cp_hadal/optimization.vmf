@@ -1,8 +1,8 @@
 versioninfo
 {
 	"editorversion" "400"
-	"editorbuild" "7026"
-	"mapversion" "12"
+	"editorbuild" "7069"
+	"mapversion" "13"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -20,7 +20,7 @@ viewsettings
 world
 {
 	"id" "1"
-	"mapversion" "11"
+	"mapversion" "1"
 	"classname" "worldspawn"
 	"detailmaterial" "detail/detailsprites_2fort"
 	"detailvbsp" "detail_2fort.vbsp"
@@ -579,7 +579,7 @@ entity
 		side
 		{
 			"id" "276"
-			"plane" "(784 -784 640) (784 -944 640) (768 -944 640)"
+			"plane" "(784 -1216 64) (768 -1216 64) (768 -1056 64)"
 			"material" "TOOLS/TOOLSAREAPORTAL"
 			"uaxis" "[0 -1 0 -32] 0.25"
 			"vaxis" "[-1 0 0 0] 0.25"
@@ -590,7 +590,7 @@ entity
 		side
 		{
 			"id" "275"
-			"plane" "(768 -784 480) (768 -944 480) (784 -944 480)"
+			"plane" "(784 -1056 -96) (768 -1056 -96) (768 -1216 -96)"
 			"material" "TOOLS/TOOLSAREAPORTAL"
 			"uaxis" "[0 -1 0 -32] 0.25"
 			"vaxis" "[-1 0 0 0] 0.25"
@@ -601,7 +601,7 @@ entity
 		side
 		{
 			"id" "274"
-			"plane" "(784 -784 640) (768 -784 640) (768 -784 480)"
+			"plane" "(768 -1056 -96) (784 -1056 -96) (784 -1056 64)"
 			"material" "TOOLS/TOOLSAREAPORTAL"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
@@ -612,7 +612,7 @@ entity
 		side
 		{
 			"id" "273"
-			"plane" "(784 -944 480) (768 -944 480) (768 -944 640)"
+			"plane" "(784 -1216 -96) (768 -1216 -96) (768 -1216 64)"
 			"material" "TOOLS/TOOLSAREAPORTAL"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
@@ -623,7 +623,7 @@ entity
 		side
 		{
 			"id" "272"
-			"plane" "(784 -944 640) (784 -784 640) (784 -784 480)"
+			"plane" "(784 -1056 -96) (784 -1216 -96) (784 -1216 64)"
 			"material" "TOOLS/TOOLSAREAPORTAL"
 			"uaxis" "[0 -1 0 -32] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
@@ -634,7 +634,7 @@ entity
 		side
 		{
 			"id" "271"
-			"plane" "(768 -944 480) (768 -784 480) (768 -784 640)"
+			"plane" "(768 -1216 -96) (768 -1056 -96) (768 -1056 64)"
 			"material" "TOOLS/TOOLSAREAPORTAL"
 			"uaxis" "[0 -1 0 -32] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
@@ -2995,6 +2995,96 @@ entity
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
 		"logicalpos" "[0 5500]"
+	}
+}
+entity
+{
+	"id" "148"
+	"classname" "func_areaportal"
+	"PortalVersion" "1"
+	"StartOpen" "1"
+	solid
+	{
+		"id" "149"
+		side
+		{
+			"id" "666"
+			"plane" "(544 -880 384) (544 -896 384) (384 -896 384)"
+			"material" "TOOLS/TOOLSAREAPORTAL"
+			"uaxis" "[1 0 0 32] 0.25"
+			"vaxis" "[0 -1 0 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "665"
+			"plane" "(384 -880 192) (384 -896 192) (544 -896 192)"
+			"material" "TOOLS/TOOLSAREAPORTAL"
+			"uaxis" "[1 0 0 32] 0.25"
+			"vaxis" "[0 -1 0 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "664"
+			"plane" "(384 -896 192) (384 -880 192) (384 -880 384)"
+			"material" "TOOLS/TOOLSAREAPORTAL"
+			"uaxis" "[0 1 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "663"
+			"plane" "(544 -880 192) (544 -896 192) (544 -896 384)"
+			"material" "TOOLS/TOOLSAREAPORTAL"
+			"uaxis" "[0 1 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "662"
+			"plane" "(384 -880 192) (544 -880 192) (544 -880 384)"
+			"material" "TOOLS/TOOLSAREAPORTAL"
+			"uaxis" "[1 0 0 32] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "661"
+			"plane" "(544 -896 192) (384 -896 192) (384 -896 384)"
+			"material" "TOOLS/TOOLSAREAPORTAL"
+			"uaxis" "[1 0 0 32] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		editor
+		{
+			"color" "0 255 255"
+			"visgroupshown" "1"
+			"visgroupautoshown" "1"
+		}
+	}
+	editor
+	{
+		"color" "0 255 255"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 3500]"
 	}
 }
 cameras

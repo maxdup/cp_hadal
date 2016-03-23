@@ -2,7 +2,7 @@ versioninfo
 {
 	"editorversion" "400"
 	"editorbuild" "7069"
-	"mapversion" "2686"
+	"mapversion" "2687"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -20,7 +20,7 @@ viewsettings
 world
 {
 	"id" "1"
-	"mapversion" "48"
+	"mapversion" "14"
 	"classname" "worldspawn"
 	"detailmaterial" "detail/detailsprites_2fort"
 	"detailvbsp" "detail_2fort.vbsp"
@@ -12479,83 +12479,80 @@ world
 			"visgroupautoshown" "1"
 		}
 	}
-	hidden
+	solid
 	{
-		solid
+		"id" "123759"
+		side
 		{
-			"id" "123759"
-			side
-			{
-				"id" "35971"
-				"plane" "(992 656 896) (992 656 192) (992 880 192)"
-				"material" "TOOLS/TOOLSCLIP"
-				"uaxis" "[0 1 0 0] 0.25"
-				"vaxis" "[0 0 -1 0] 0.25"
-				"rotation" "0"
-				"lightmapscale" "16"
-				"smoothing_groups" "0"
-			}
-			side
-			{
-				"id" "35970"
-				"plane" "(1008 880 896) (1008 880 192) (1008 656 192)"
-				"material" "TOOLS/TOOLSCLIP"
-				"uaxis" "[0 0 1 0] 0.25"
-				"vaxis" "[0 1 0 0] 0.25"
-				"rotation" "90"
-				"lightmapscale" "16"
-				"smoothing_groups" "0"
-			}
-			side
-			{
-				"id" "35969"
-				"plane" "(992 880 896) (992 880 192) (1008 880 192)"
-				"material" "TOOLS/TOOLSCLIP"
-				"uaxis" "[0 0 1 -32] 0.25"
-				"vaxis" "[1 0 0 0] 0.25"
-				"rotation" "90"
-				"lightmapscale" "16"
-				"smoothing_groups" "0"
-			}
-			side
-			{
-				"id" "35968"
-				"plane" "(1008 656 896) (1008 656 192) (992 656 192)"
-				"material" "TOOLS/TOOLSCLIP"
-				"uaxis" "[0 0 1 0] 0.25"
-				"vaxis" "[1 0 0 0] 0.25"
-				"rotation" "90"
-				"lightmapscale" "16"
-				"smoothing_groups" "0"
-			}
-			side
-			{
-				"id" "35967"
-				"plane" "(992 656 896) (992 880 896) (1008 880 896)"
-				"material" "TOOLS/TOOLSCLIP"
-				"uaxis" "[1 0 0 0] 0.25"
-				"vaxis" "[0 -1 0 0] 0.25"
-				"rotation" "0"
-				"lightmapscale" "16"
-				"smoothing_groups" "0"
-			}
-			side
-			{
-				"id" "35966"
-				"plane" "(992 880 192) (992 656 192) (1008 656 192)"
-				"material" "TOOLS/TOOLSCLIP"
-				"uaxis" "[1 0 0 0] 0.25"
-				"vaxis" "[0 -1 0 0] 0.25"
-				"rotation" "0"
-				"lightmapscale" "16"
-				"smoothing_groups" "0"
-			}
-			editor
-			{
-				"color" "0 253 142"
-				"visgroupshown" "1"
-				"visgroupautoshown" "1"
-			}
+			"id" "35971"
+			"plane" "(992 656 896) (992 656 192) (992 880 192)"
+			"material" "TOOLS/TOOLSCLIP"
+			"uaxis" "[0 1 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "35970"
+			"plane" "(1008 880 896) (1008 880 192) (1008 656 192)"
+			"material" "TOOLS/TOOLSCLIP"
+			"uaxis" "[0 0 1 0] 0.25"
+			"vaxis" "[0 1 0 0] 0.25"
+			"rotation" "90"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "35969"
+			"plane" "(992 880 896) (992 880 192) (1008 880 192)"
+			"material" "TOOLS/TOOLSCLIP"
+			"uaxis" "[0 0 1 -32] 0.25"
+			"vaxis" "[1 0 0 0] 0.25"
+			"rotation" "90"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "35968"
+			"plane" "(1008 656 896) (1008 656 192) (992 656 192)"
+			"material" "TOOLS/TOOLSCLIP"
+			"uaxis" "[0 0 1 0] 0.25"
+			"vaxis" "[1 0 0 0] 0.25"
+			"rotation" "90"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "35967"
+			"plane" "(992 656 896) (992 880 896) (1008 880 896)"
+			"material" "TOOLS/TOOLSCLIP"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 -1 0 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "35966"
+			"plane" "(992 880 192) (992 656 192) (1008 656 192)"
+			"material" "TOOLS/TOOLSCLIP"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 -1 0 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		editor
+		{
+			"color" "0 253 142"
+			"visgroupshown" "1"
+			"visgroupautoshown" "1"
 		}
 	}
 	solid
@@ -26852,7 +26849,7 @@ world
 		}
 		side
 		{
-			"id" "0"
+			"id" "50942"
 			"plane" "(976 912 1344) (976 624 1344) (976 624 888)"
 			"material" "TOOLS/TOOLSCLIP"
 			"uaxis" "[0 1 0 0] 0.25"
@@ -26863,7 +26860,7 @@ world
 		}
 		editor
 		{
-			"color" "0 180 0"
+			"color" "0 193 182"
 			"visgroupshown" "1"
 			"visgroupautoshown" "1"
 		}
@@ -26887,7 +26884,7 @@ world
 			"id" "50940"
 			"plane" "(1008 944 1344) (1008 944 896) (1008 592 896)"
 			"material" "TOOLS/TOOLSCLIP"
-			"uaxis" "[0 1 0 -0] 0.25"
+			"uaxis" "[0 1 0 0] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"
@@ -26899,7 +26896,7 @@ world
 			"plane" "(976 944 1344) (976 944 896) (1008 944 896)"
 			"material" "TOOLS/TOOLSCLIP"
 			"uaxis" "[0 0 1 -32] 0.25"
-			"vaxis" "[1 0 0 -0] 0.25"
+			"vaxis" "[1 0 0 0] 0.25"
 			"rotation" "90"
 			"lightmapscale" "16"
 			"smoothing_groups" "0"
@@ -26909,8 +26906,8 @@ world
 			"id" "50938"
 			"plane" "(1008 592 1344) (1008 592 896) (976 592 896)"
 			"material" "TOOLS/TOOLSCLIP"
-			"uaxis" "[0 0 1 -0] 0.25"
-			"vaxis" "[1 0 0 -0] 0.25"
+			"uaxis" "[0 0 1 0] 0.25"
+			"vaxis" "[1 0 0 0] 0.25"
 			"rotation" "90"
 			"lightmapscale" "16"
 			"smoothing_groups" "0"
@@ -26931,7 +26928,7 @@ world
 			"id" "50936"
 			"plane" "(976 944 896) (976 592 896) (1008 592 896)"
 			"material" "TOOLS/TOOLSCLIP"
-			"uaxis" "[0 1 0 -0] 0.25"
+			"uaxis" "[0 1 0 0] 0.25"
 			"vaxis" "[-1 0 0 0] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"
@@ -26939,7 +26936,7 @@ world
 		}
 		editor
 		{
-			"color" "0 180 0"
+			"color" "0 229 102"
 			"visgroupshown" "1"
 			"visgroupautoshown" "1"
 		}
@@ -41553,7 +41550,7 @@ entity
 	"EndV" "0"
 	"fademindist" "-1"
 	"material" "hadal/sector_c_stripe"
-	"sides" ""
+	"sides" "49234"
 	"StartU" "0"
 	"StartV" "1"
 	"uv0" "-11.3935 -19.9825 0"
@@ -41581,7 +41578,7 @@ entity
 	"EndV" "0"
 	"fademindist" "-1"
 	"material" "hadal/sector_c_stripe"
-	"sides" ""
+	"sides" "49234"
 	"StartU" "0"
 	"StartV" "1"
 	"uv0" "-74.4942 -7.99999 0"
@@ -41609,7 +41606,7 @@ entity
 	"EndV" "0"
 	"fademindist" "-1"
 	"material" "hadal/sector_c"
-	"sides" ""
+	"sides" "49234"
 	"StartU" "0"
 	"StartV" "-1"
 	"uv0" "-64 -16 0"
@@ -45366,7 +45363,7 @@ entity
 	"EndV" "1"
 	"fademindist" "-1"
 	"material" "hadal/sector_c_stripe"
-	"sides" ""
+	"sides" "49237"
 	"StartU" "1.1381"
 	"StartV" "0"
 	"uv0" "-51.5042 -8 0"

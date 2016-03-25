@@ -2,7 +2,7 @@ versioninfo
 {
 	"editorversion" "400"
 	"editorbuild" "7069"
-	"mapversion" "26"
+	"mapversion" "28"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -20,7 +20,7 @@ viewsettings
 world
 {
 	"id" "5"
-	"mapversion" "18"
+	"mapversion" "86"
 	"classname" "worldspawn"
 	"detailmaterial" "detail/detailsprites_2fort"
 	"detailvbsp" "detail_2fort.vbsp"
@@ -18735,6 +18735,82 @@ world
 	}
 	solid
 	{
+		"id" "147380"
+		side
+		{
+			"id" "6362"
+			"plane" "(-1584 -208 576) (-1584 -144 576) (-1152 -144 576)"
+			"material" "TOOLS/TOOLSNODRAW"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 -1 0 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "6361"
+			"plane" "(-1584 -144 512) (-1584 -144 576) (-1584 -208 576)"
+			"material" "TOOLS/TOOLSNODRAW"
+			"uaxis" "[0 1 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "6360"
+			"plane" "(-1152 -208 512) (-1152 -208 576) (-1152 -144 576)"
+			"material" "TOOLS/TOOLSNODRAW"
+			"uaxis" "[0 1 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "6359"
+			"plane" "(-1152 -144 512) (-1152 -144 576) (-1584 -144 576)"
+			"material" "TOOLS/TOOLSNODRAW"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "6358"
+			"plane" "(-1584 -208 512) (-1584 -208 576) (-1152 -208 576)"
+			"material" "BRICK/WALL029"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 0 -1 256] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "6357"
+			"plane" "(-1584 -144 512) (-1584 -208 512) (-1152 -208 512)"
+			"material" "CONCRETE/CONCRETEWALL001E"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 -1 0 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		editor
+		{
+			"color" "0 137 150"
+			"visgroupshown" "1"
+			"visgroupautoshown" "1"
+		}
+	}
+	solid
+	{
 		"id" "147512"
 		side
 		{
@@ -19582,11 +19658,22 @@ world
 	}
 	solid
 	{
-		"id" "147380"
+		"id" "144821"
 		side
 		{
-			"id" "6362"
-			"plane" "(-1584 -208 576) (-1584 -144 576) (-1152 -144 576)"
+			"id" "6374"
+			"plane" "(-1792 896 128) (-1280 896 128) (-1280 -32 128)"
+			"material" "CONCRETE/CONCRETEFLOOR003"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 -1 0 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "6373"
+			"plane" "(-1792 896 0) (-1792 -32 0) (-1280 -32 0)"
 			"material" "TOOLS/TOOLSNODRAW"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 -1 0 0] 0.25"
@@ -19596,8 +19683,8 @@ world
 		}
 		side
 		{
-			"id" "6361"
-			"plane" "(-1584 -144 512) (-1584 -144 576) (-1584 -208 576)"
+			"id" "6372"
+			"plane" "(-1792 896 0) (-1792 896 128) (-1792 -32 128)"
 			"material" "TOOLS/TOOLSNODRAW"
 			"uaxis" "[0 1 0 0] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
@@ -19607,8 +19694,19 @@ world
 		}
 		side
 		{
-			"id" "6360"
-			"plane" "(-1152 -208 512) (-1152 -208 576) (-1152 -144 576)"
+			"id" "6371"
+			"plane" "(-1280 896 0) (-1280 896 128) (-1792 896 128)"
+			"material" "TOOLS/TOOLSNODRAW"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "6370"
+			"plane" "(-1280 -32 0) (-1280 -32 128) (-1280 896 128)"
 			"material" "TOOLS/TOOLSNODRAW"
 			"uaxis" "[0 1 0 0] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
@@ -19618,40 +19716,18 @@ world
 		}
 		side
 		{
-			"id" "6359"
-			"plane" "(-1152 -144 512) (-1152 -144 576) (-1584 -144 576)"
+			"id" "6369"
+			"plane" "(-1792 -32 0) (-1792 -32 128) (-1280 -32 128)"
 			"material" "TOOLS/TOOLSNODRAW"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
-			"rotation" "0"
-			"lightmapscale" "16"
-			"smoothing_groups" "0"
-		}
-		side
-		{
-			"id" "6358"
-			"plane" "(-1584 -208 512) (-1584 -208 576) (-1152 -208 576)"
-			"material" "BRICK/WALL029"
-			"uaxis" "[1 0 0 0] 0.25"
-			"vaxis" "[0 0 -1 256] 0.25"
-			"rotation" "0"
-			"lightmapscale" "16"
-			"smoothing_groups" "0"
-		}
-		side
-		{
-			"id" "6357"
-			"plane" "(-1584 -144 512) (-1584 -208 512) (-1152 -208 512)"
-			"material" "CONCRETE/CONCRETEWALL001E"
-			"uaxis" "[1 0 0 0] 0.25"
-			"vaxis" "[0 -1 0 0] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"
 			"smoothing_groups" "0"
 		}
 		editor
 		{
-			"color" "0 137 150"
+			"color" "0 202 251"
 			"visgroupshown" "1"
 			"visgroupautoshown" "1"
 		}

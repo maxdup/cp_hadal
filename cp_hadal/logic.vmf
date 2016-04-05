@@ -2,7 +2,7 @@ versioninfo
 {
 	"editorversion" "400"
 	"editorbuild" "7069"
-	"mapversion" "591"
+	"mapversion" "593"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -26,7 +26,7 @@ viewsettings
 world
 {
 	"id" "5"
-	"mapversion" "24"
+	"mapversion" "2"
 	"classname" "worldspawn"
 	"detailmaterial" "detail/detailsprites_2fort"
 	"detailvbsp" "detail_2fort.vbsp"
@@ -1027,6 +1027,7 @@ entity
 	{
 		"OnFinished" "sscp_time_end,RoundWin,,0,-1"
 		"OnSetupFinished" "door_blu_spawn_setup,Open,,0,-1"
+		"OnSetupFinished" "spawn_exit,Enable,,0,-1"
 	}
 	"origin" "160 504 528"
 	editor
@@ -19091,7 +19092,8 @@ entity
 	"filtername" "filter_blu"
 	"origin" "1216 -1520 408"
 	"spawnflags" "1"
-	"StartDisabled" "0"
+	"StartDisabled" "1"
+	"targetname" "spawn_exit"
 	"wait" "1"
 	connections
 	{
@@ -19169,14 +19171,14 @@ entity
 		}
 		editor
 		{
-			"color" "0 145 142"
+			"color" "220 30 220"
 			"visgroupshown" "1"
 			"visgroupautoshown" "1"
 		}
 	}
 	editor
 	{
-		"color" "0 145 142"
+		"color" "220 30 220"
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
 		"logicalpos" "[-5335.05 7701.54]"
@@ -19196,7 +19198,7 @@ entity
 	"origin" "1216 -1523 408"
 	editor
 	{
-		"color" "0 179 172"
+		"color" "255 255 0"
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
 		"logicalpos" "[1144.75 3685.64]"
@@ -19298,14 +19300,14 @@ entity
 		}
 		editor
 		{
-			"color" "0 201 174"
+			"color" "220 30 220"
 			"visgroupshown" "1"
 			"visgroupautoshown" "1"
 		}
 	}
 	editor
 	{
-		"color" "0 201 174"
+		"color" "220 30 220"
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
 		"logicalpos" "[-4094.9 7668.21]"
@@ -19342,7 +19344,7 @@ entity
 	"origin" "1216 -1523 408"
 	editor
 	{
-		"color" "0 155 196"
+		"color" "220 30 220"
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
 		"logicalpos" "[-3556.59 7664.89]"

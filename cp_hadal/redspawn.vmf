@@ -2,7 +2,7 @@ versioninfo
 {
 	"editorversion" "400"
 	"editorbuild" "7069"
-	"mapversion" "1893"
+	"mapversion" "1894"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -20,7 +20,7 @@ viewsettings
 world
 {
 	"id" "5"
-	"mapversion" "62"
+	"mapversion" "1"
 	"classname" "worldspawn"
 	"detailmaterial" "detail/detailsprites_2fort"
 	"detailvbsp" "detail_2fort.vbsp"
@@ -18970,7 +18970,7 @@ world
 		}
 		editor
 		{
-			"color" "0 180 0"
+			"color" "0 157 246"
 			"visgroupshown" "1"
 			"visgroupautoshown" "1"
 		}
@@ -19046,7 +19046,7 @@ world
 		}
 		editor
 		{
-			"color" "0 180 0"
+			"color" "0 133 178"
 			"visgroupshown" "1"
 			"visgroupautoshown" "1"
 		}
@@ -37198,83 +37198,80 @@ entity
 			"visgroupautoshown" "1"
 		}
 	}
-	hidden
+	solid
 	{
-		solid
+		"id" "60474"
+		side
 		{
-			"id" "60474"
-			side
-			{
-				"id" "12271"
-				"plane" "(96 -416 576) (96 -176 576) (320 -176 576)"
-				"material" "TOOLS/TOOLSTRIGGER"
-				"uaxis" "[1 0 0 0] 0.25"
-				"vaxis" "[0 -1 0 0] 0.25"
-				"rotation" "0"
-				"lightmapscale" "16"
-				"smoothing_groups" "0"
-			}
-			side
-			{
-				"id" "12270"
-				"plane" "(96 -176 384) (96 -416 384) (320 -416 384)"
-				"material" "TOOLS/TOOLSTRIGGER"
-				"uaxis" "[1 0 0 0] 0.25"
-				"vaxis" "[0 -1 0 0] 0.25"
-				"rotation" "0"
-				"lightmapscale" "16"
-				"smoothing_groups" "0"
-			}
-			side
-			{
-				"id" "12269"
-				"plane" "(96 -416 384) (96 -176 384) (96 -176 576)"
-				"material" "TOOLS/TOOLSTRIGGER"
-				"uaxis" "[0 1 0 0] 0.25"
-				"vaxis" "[0 0 -1 17.2307] 0.25"
-				"rotation" "0"
-				"lightmapscale" "16"
-				"smoothing_groups" "0"
-			}
-			side
-			{
-				"id" "12268"
-				"plane" "(320 -176 384) (320 -416 384) (320 -416 576)"
-				"material" "TOOLS/TOOLSTRIGGER"
-				"uaxis" "[0 1 0 0] 0.25"
-				"vaxis" "[0 0 -1 17.2307] 0.25"
-				"rotation" "0"
-				"lightmapscale" "16"
-				"smoothing_groups" "0"
-			}
-			side
-			{
-				"id" "12267"
-				"plane" "(96 -176 384) (320 -176 384) (320 -176 576)"
-				"material" "TOOLS/TOOLSTRIGGER"
-				"uaxis" "[1 0 0 0] 0.25"
-				"vaxis" "[0 0 -1 17.2307] 0.25"
-				"rotation" "0"
-				"lightmapscale" "16"
-				"smoothing_groups" "0"
-			}
-			side
-			{
-				"id" "12266"
-				"plane" "(320 -416 384) (96 -416 384) (96 -416 576)"
-				"material" "TOOLS/TOOLSTRIGGER"
-				"uaxis" "[1 0 0 0] 0.25"
-				"vaxis" "[0 0 -1 17.2307] 0.25"
-				"rotation" "0"
-				"lightmapscale" "16"
-				"smoothing_groups" "0"
-			}
-			editor
-			{
-				"color" "220 30 220"
-				"visgroupshown" "1"
-				"visgroupautoshown" "1"
-			}
+			"id" "12271"
+			"plane" "(96 -416 576) (96 -176 576) (320 -176 576)"
+			"material" "TOOLS/TOOLSTRIGGER"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 -1 0 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "12270"
+			"plane" "(96 -176 384) (96 -416 384) (320 -416 384)"
+			"material" "TOOLS/TOOLSTRIGGER"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 -1 0 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "12269"
+			"plane" "(96 -416 384) (96 -176 384) (96 -176 576)"
+			"material" "TOOLS/TOOLSTRIGGER"
+			"uaxis" "[0 1 0 0] 0.25"
+			"vaxis" "[0 0 -1 17.2307] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "12268"
+			"plane" "(320 -176 384) (320 -416 384) (320 -416 576)"
+			"material" "TOOLS/TOOLSTRIGGER"
+			"uaxis" "[0 1 0 0] 0.25"
+			"vaxis" "[0 0 -1 17.2307] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "12267"
+			"plane" "(96 -176 384) (320 -176 384) (320 -176 576)"
+			"material" "TOOLS/TOOLSTRIGGER"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 0 -1 17.2307] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "12266"
+			"plane" "(320 -416 384) (96 -416 384) (96 -416 576)"
+			"material" "TOOLS/TOOLSTRIGGER"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 0 -1 17.2307] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		editor
+		{
+			"color" "220 30 220"
+			"visgroupshown" "1"
+			"visgroupautoshown" "1"
 		}
 	}
 	editor
@@ -45332,7 +45329,7 @@ entity
 	"EndV" "0.871565"
 	"fademindist" "-1"
 	"material" "hadal/sector_main_big"
-	"sides" "13719 13725 14791 14803"
+	"sides" "13725 13719 15111 15081"
 	"StartU" "1.04394"
 	"StartV" "0"
 	"uv0" "-62.7944 -56.1361 0"

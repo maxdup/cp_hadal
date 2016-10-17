@@ -1,8 +1,8 @@
 versioninfo
 {
 	"editorversion" "400"
-	"editorbuild" "7270"
-	"mapversion" "762"
+	"editorbuild" "7293"
+	"mapversion" "765"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -26,7 +26,7 @@ viewsettings
 world
 {
 	"id" "5"
-	"mapversion" "59"
+	"mapversion" "3"
 	"classname" "worldspawn"
 	"detailmaterial" "detail/detailsprites_2fort"
 	"detailvbsp" "detail_2fort.vbsp"
@@ -872,7 +872,9 @@ entity
 	connections
 	{
 		"OnCapTeam2" "cp_E_prop,Skin,2,0,-1"
-		"OnCapTeam2" "sscp_early_win,RoundWin,,0,-1"
+		"OnCapTeam2" "cp_a,SetOwner,3,0,-1"
+		"OnCapTeam2" "cp_b,SetOwner,3,0,-1"
+		"OnCapTeam2" "cp_c,SetOwner,3,0,-1"
 	}
 	solid
 	{
@@ -5206,7 +5208,6 @@ entity
 	"defaultwelcome" "0"
 	"fov" "0"
 	"StartDisabled" "0"
-	"targetname" "CP_A"
 	"origin" "-1592 -1152 367.22"
 	editor
 	{

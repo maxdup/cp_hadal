@@ -2,7 +2,7 @@ versioninfo
 {
 	"editorversion" "400"
 	"editorbuild" "7293"
-	"mapversion" "68"
+	"mapversion" "70"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -20,7 +20,7 @@ viewsettings
 world
 {
 	"id" "1"
-	"mapversion" "41"
+	"mapversion" "219"
 	"classname" "worldspawn"
 	"detailmaterial" "detail/detailsprites_2fort"
 	"detailvbsp" "detail_2fort.vbsp"
@@ -129,7 +129,7 @@ entity
 		side
 		{
 			"id" "42"
-			"plane" "(464 -1280 320) (720 -1280 320) (720 -1296 320)"
+			"plane" "(480 -1296 320) (480 -1280 320) (736 -1280 320)"
 			"material" "TOOLS/TOOLSAREAPORTAL"
 			"uaxis" "[1 0 0 -32] 0.25"
 			"vaxis" "[0 -1 0 0] 0.25"
@@ -140,7 +140,7 @@ entity
 		side
 		{
 			"id" "41"
-			"plane" "(464 -1296 192) (720 -1296 192) (720 -1280 192)"
+			"plane" "(480 -1280 192) (480 -1296 192) (736 -1296 192)"
 			"material" "TOOLS/TOOLSAREAPORTAL"
 			"uaxis" "[1 0 0 -32] 0.25"
 			"vaxis" "[0 -1 0 0] 0.25"
@@ -151,7 +151,7 @@ entity
 		side
 		{
 			"id" "40"
-			"plane" "(464 -1280 320) (464 -1296 320) (464 -1296 192)"
+			"plane" "(480 -1296 192) (480 -1280 192) (480 -1280 320)"
 			"material" "TOOLS/TOOLSAREAPORTAL"
 			"uaxis" "[0 1 0 0] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
@@ -162,7 +162,7 @@ entity
 		side
 		{
 			"id" "39"
-			"plane" "(720 -1280 192) (720 -1296 192) (720 -1296 320)"
+			"plane" "(736 -1280 192) (736 -1296 192) (736 -1296 320)"
 			"material" "TOOLS/TOOLSAREAPORTAL"
 			"uaxis" "[0 1 0 0] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
@@ -173,7 +173,7 @@ entity
 		side
 		{
 			"id" "38"
-			"plane" "(720 -1280 320) (464 -1280 320) (464 -1280 192)"
+			"plane" "(480 -1280 192) (736 -1280 192) (736 -1280 320)"
 			"material" "TOOLS/TOOLSAREAPORTAL"
 			"uaxis" "[1 0 0 -32] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
@@ -184,7 +184,7 @@ entity
 		side
 		{
 			"id" "37"
-			"plane" "(720 -1296 192) (464 -1296 192) (464 -1296 320)"
+			"plane" "(736 -1296 192) (480 -1296 192) (480 -1296 320)"
 			"material" "TOOLS/TOOLSAREAPORTAL"
 			"uaxis" "[1 0 0 -32] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
@@ -3009,7 +3009,7 @@ entity
 		side
 		{
 			"id" "858"
-			"plane" "(1168 -1536 472) (1168 -1520 472) (1264 -1520 472)"
+			"plane" "(1168 -1584 472) (1168 -1568 472) (1264 -1568 472)"
 			"material" "TOOLS/TOOLSAREAPORTAL"
 			"uaxis" "[1 0 0 -32] 0.25"
 			"vaxis" "[0 -1 0 0] 0.25"
@@ -3020,7 +3020,7 @@ entity
 		side
 		{
 			"id" "857"
-			"plane" "(1168 -1520 344) (1168 -1536 344) (1264 -1536 344)"
+			"plane" "(1168 -1568 344) (1168 -1584 344) (1264 -1584 344)"
 			"material" "TOOLS/TOOLSAREAPORTAL"
 			"uaxis" "[1 0 0 -32] 0.25"
 			"vaxis" "[0 -1 0 0] 0.25"
@@ -3031,7 +3031,7 @@ entity
 		side
 		{
 			"id" "856"
-			"plane" "(1168 -1536 344) (1168 -1520 344) (1168 -1520 472)"
+			"plane" "(1168 -1584 344) (1168 -1568 344) (1168 -1568 472)"
 			"material" "TOOLS/TOOLSAREAPORTAL"
 			"uaxis" "[0 1 0 0] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
@@ -3042,7 +3042,7 @@ entity
 		side
 		{
 			"id" "855"
-			"plane" "(1264 -1520 344) (1264 -1536 344) (1264 -1536 472)"
+			"plane" "(1264 -1568 344) (1264 -1584 344) (1264 -1584 472)"
 			"material" "TOOLS/TOOLSAREAPORTAL"
 			"uaxis" "[0 1 0 0] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
@@ -3053,7 +3053,7 @@ entity
 		side
 		{
 			"id" "854"
-			"plane" "(1168 -1520 344) (1264 -1520 344) (1264 -1520 472)"
+			"plane" "(1168 -1568 344) (1264 -1568 344) (1264 -1568 472)"
 			"material" "TOOLS/TOOLSAREAPORTAL"
 			"uaxis" "[1 0 0 -32] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
@@ -3064,7 +3064,7 @@ entity
 		side
 		{
 			"id" "853"
-			"plane" "(1264 -1536 344) (1168 -1536 344) (1168 -1536 472)"
+			"plane" "(1264 -1584 344) (1168 -1584 344) (1168 -1584 472)"
 			"material" "TOOLS/TOOLSAREAPORTAL"
 			"uaxis" "[1 0 0 -32] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"

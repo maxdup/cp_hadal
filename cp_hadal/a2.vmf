@@ -2,7 +2,7 @@ versioninfo
 {
 	"editorversion" "400"
 	"editorbuild" "7293"
-	"mapversion" "1518"
+	"mapversion" "1525"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -20,7 +20,7 @@ viewsettings
 world
 {
 	"id" "1"
-	"mapversion" "334"
+	"mapversion" "11"
 	"classname" "worldspawn"
 	"detailmaterial" "detail/detailsprites_2fort"
 	"detailvbsp" "detail_2fort.vbsp"
@@ -63923,9 +63923,9 @@ entity
 			"id" "38647"
 			"plane" "(-1088 -784 288) (-1152 -784 288) (-1152 -784 280)"
 			"material" "METAL/IBEAM001B"
-			"uaxis" "[1 0 0 -64] 0.25"
-			"vaxis" "[0 0 -1 0] 0.25"
-			"rotation" "0"
+			"uaxis" "[0 0 1 496] 0.25"
+			"vaxis" "[1 0 0 0] 0.25"
+			"rotation" "90"
 			"lightmapscale" "16"
 			"smoothing_groups" "0"
 		}
@@ -63934,9 +63934,9 @@ entity
 			"id" "38646"
 			"plane" "(-1152 -784 288) (-1152 -992 288) (-1152 -992 280)"
 			"material" "METAL/IBEAM001B"
-			"uaxis" "[0 1 0 496] 0.25"
-			"vaxis" "[0 0 -1 0] 0.25"
-			"rotation" "0"
+			"uaxis" "[0 0 1 496] 0.25"
+			"vaxis" "[0 1 0 0] 0.25"
+			"rotation" "90"
 			"lightmapscale" "16"
 			"smoothing_groups" "0"
 		}
@@ -68284,6 +68284,69 @@ entity
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
 		"logicalpos" "[3000 -14768]"
+	}
+}
+entity
+{
+	"id" "262468"
+	"classname" "prop_static"
+	"angles" "0 0 0"
+	"fademindist" "-1"
+	"fadescale" "1"
+	"lightmapresolutionx" "32"
+	"lightmapresolutiony" "32"
+	"model" "models/props_hydro/water_barrel.mdl"
+	"skin" "0"
+	"solid" "6"
+	"origin" "-1496 -628 160.207"
+	editor
+	{
+		"color" "255 255 0"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
+	}
+}
+entity
+{
+	"id" "262492"
+	"classname" "prop_static"
+	"angles" "0 0 0"
+	"fademindist" "-1"
+	"fadescale" "1"
+	"lightmapresolutionx" "32"
+	"lightmapresolutiony" "32"
+	"model" "models/props_hydro/water_barrel_cluster.mdl"
+	"skin" "0"
+	"solid" "6"
+	"origin" "-1128 -844 160.25"
+	editor
+	{
+		"color" "255 255 0"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
+	}
+}
+entity
+{
+	"id" "262500"
+	"classname" "prop_static"
+	"angles" "0 185 0"
+	"fademindist" "-1"
+	"fadescale" "1"
+	"lightmapresolutionx" "32"
+	"lightmapresolutiony" "32"
+	"model" "models/props_hydro/water_barrel_cluster.mdl"
+	"skin" "0"
+	"solid" "6"
+	"origin" "-1126.79 -931.943 160.25"
+	editor
+	{
+		"color" "255 255 0"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
 	}
 }
 cameras

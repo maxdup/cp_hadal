@@ -2,7 +2,7 @@ versioninfo
 {
 	"editorversion" "400"
 	"editorbuild" "7293"
-	"mapversion" "1062"
+	"mapversion" "1065"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -20,7 +20,7 @@ viewsettings
 world
 {
 	"id" "1"
-	"mapversion" "65"
+	"mapversion" "82"
 	"classname" "worldspawn"
 	"detailmaterial" "detail/detailsprites_2fort"
 	"detailvbsp" "detail_2fort.vbsp"
@@ -22548,6 +22548,71 @@ world
 	}
 	solid
 	{
+		"id" "265221"
+		side
+		{
+			"id" "33894"
+			"plane" "(1472 -1152 320) (1472 -1024 320) (1472 -1024 192)"
+			"material" "TOOLS/TOOLSPLAYERCLIP"
+			"uaxis" "[0 1 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "33893"
+			"plane" "(1280 -1024 192) (1472 -1024 192) (1472 -1024 320)"
+			"material" "TOOLS/TOOLSPLAYERCLIP"
+			"uaxis" "[0 0 1 -24] 1"
+			"vaxis" "[1 0 0 0] 1"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "33892"
+			"plane" "(1280 -1152 192) (1472 -1152 192) (1472 -1024 192)"
+			"material" "TOOLS/TOOLSPLAYERCLIP"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 -1 0 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "33891"
+			"plane" "(1472 -1152 320) (1472 -1152 192) (1280 -1152 192)"
+			"material" "TOOLS/TOOLSPLAYERCLIP"
+			"uaxis" "[0 0 1 -24] 1"
+			"vaxis" "[-1 0 0 16] 1"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "33890"
+			"plane" "(1280 -1152 192) (1280 -1024 192) (1472 -1024 320)"
+			"material" "TOOLS/TOOLSPLAYERCLIP"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 -1 0 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		editor
+		{
+			"color" "0 107 112"
+			"visgroupshown" "1"
+			"visgroupautoshown" "1"
+		}
+	}
+	solid
+	{
 		"id" "8061"
 		side
 		{
@@ -23158,71 +23223,6 @@ world
 		{
 			"color" "220 220 220"
 			"groupid" "8060"
-			"visgroupshown" "1"
-			"visgroupautoshown" "1"
-		}
-	}
-	solid
-	{
-		"id" "265221"
-		side
-		{
-			"id" "33894"
-			"plane" "(1472 -1152 320) (1472 -1024 320) (1472 -1024 192)"
-			"material" "TOOLS/TOOLSPLAYERCLIP"
-			"uaxis" "[0 1 0 0] 0.25"
-			"vaxis" "[0 0 -1 0] 0.25"
-			"rotation" "0"
-			"lightmapscale" "16"
-			"smoothing_groups" "0"
-		}
-		side
-		{
-			"id" "33893"
-			"plane" "(1280 -1024 192) (1472 -1024 192) (1472 -1024 320)"
-			"material" "TOOLS/TOOLSPLAYERCLIP"
-			"uaxis" "[0 0 1 -24] 1"
-			"vaxis" "[1 0 0 -0] 1"
-			"rotation" "0"
-			"lightmapscale" "16"
-			"smoothing_groups" "0"
-		}
-		side
-		{
-			"id" "33892"
-			"plane" "(1280 -1152 192) (1472 -1152 192) (1472 -1024 192)"
-			"material" "TOOLS/TOOLSPLAYERCLIP"
-			"uaxis" "[1 0 0 0] 0.25"
-			"vaxis" "[0 -1 0 0] 0.25"
-			"rotation" "0"
-			"lightmapscale" "16"
-			"smoothing_groups" "0"
-		}
-		side
-		{
-			"id" "33891"
-			"plane" "(1472 -1152 320) (1472 -1152 192) (1280 -1152 192)"
-			"material" "TOOLS/TOOLSPLAYERCLIP"
-			"uaxis" "[0 0 1 -24] 1"
-			"vaxis" "[-1 0 0 16] 1"
-			"rotation" "0"
-			"lightmapscale" "16"
-			"smoothing_groups" "0"
-		}
-		side
-		{
-			"id" "33890"
-			"plane" "(1280 -1152 192) (1280 -1024 192) (1472 -1024 320)"
-			"material" "TOOLS/TOOLSPLAYERCLIP"
-			"uaxis" "[1 0 0 0] 0.25"
-			"vaxis" "[0 -1 0 0] 0.25"
-			"rotation" "0"
-			"lightmapscale" "16"
-			"smoothing_groups" "0"
-		}
-		editor
-		{
-			"color" "0 107 112"
 			"visgroupshown" "1"
 			"visgroupautoshown" "1"
 		}
@@ -27190,7 +27190,7 @@ entity
 	"model" "models/props_aquatic/pipe_small_256.mdl"
 	"skin" "2"
 	"solid" "6"
-	"origin" "1136 -520 543"
+	"origin" "1120 -520 543"
 	editor
 	{
 		"color" "255 255 0"
@@ -27211,7 +27211,7 @@ entity
 	"model" "models/props_aquatic/pipe_small_90degree.mdl"
 	"skin" "2"
 	"solid" "6"
-	"origin" "1136 -520 688"
+	"origin" "1120 -520 688"
 	editor
 	{
 		"color" "255 255 0"
@@ -34983,27 +34983,6 @@ entity
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
 		"logicalpos" "[0 13000]"
-	}
-}
-entity
-{
-	"id" "92904"
-	"classname" "prop_static"
-	"angles" "0 270 -180"
-	"fademindist" "-1"
-	"fadescale" "1"
-	"lightmapresolutionx" "32"
-	"lightmapresolutiony" "32"
-	"model" "models/props_aquatic/pipe_small_128.mdl"
-	"skin" "2"
-	"solid" "6"
-	"origin" "1056 -520 688"
-	editor
-	{
-		"color" "255 255 0"
-		"visgroupshown" "1"
-		"visgroupautoshown" "1"
-		"logicalpos" "[0 0]"
 	}
 }
 entity
@@ -52120,6 +52099,27 @@ entity
 	"skin" "0"
 	"solid" "6"
 	"origin" "1155 -1088 106"
+	editor
+	{
+		"color" "255 255 0"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
+	}
+}
+entity
+{
+	"id" "266304"
+	"classname" "prop_static"
+	"angles" "0 270 -180"
+	"fademindist" "-1"
+	"fadescale" "1"
+	"lightmapresolutionx" "32"
+	"lightmapresolutiony" "32"
+	"model" "models/props_aquatic/pipe_small_64.mdl"
+	"skin" "2"
+	"solid" "6"
+	"origin" "1072 -520 688"
 	editor
 	{
 		"color" "255 255 0"

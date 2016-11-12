@@ -2,7 +2,7 @@ versioninfo
 {
 	"editorversion" "400"
 	"editorbuild" "7293"
-	"mapversion" "4243"
+	"mapversion" "4250"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -20,7 +20,7 @@ viewsettings
 world
 {
 	"id" "1"
-	"mapversion" "28"
+	"mapversion" "41"
 	"classname" "worldspawn"
 	"detailmaterial" "detail/detailsprites_2fort"
 	"detailvbsp" "detail_2fort.vbsp"
@@ -27436,26 +27436,13 @@ entity
 {
 	"id" "62021"
 	"classname" "env_cubemap"
-	"origin" "640 656 641"
+	"origin" "720 672 641"
 	editor
 	{
 		"color" "0 0 255"
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
 		"logicalpos" "[0 -14268]"
-	}
-}
-entity
-{
-	"id" "62029"
-	"classname" "env_cubemap"
-	"origin" "944 944 449"
-	editor
-	{
-		"color" "0 0 255"
-		"visgroupshown" "1"
-		"visgroupautoshown" "1"
-		"logicalpos" "[0 -13768]"
 	}
 }
 entity
@@ -48676,6 +48663,7 @@ entity
 	"angles" "0 225 -180"
 	"fademindist" "-1"
 	"fadescale" "1"
+	"lightingorigin" "E_pipe_y"
 	"lightmapresolutionx" "32"
 	"lightmapresolutiony" "32"
 	"model" "models/props_aquatic/pipe_64.mdl"
@@ -49801,6 +49789,7 @@ entity
 	"angles" "0 315 180"
 	"fademindist" "-1"
 	"fadescale" "1"
+	"lightingorigin" "E_pipe_b"
 	"lightmapresolutionx" "32"
 	"lightmapresolutiony" "32"
 	"model" "models/props_aquatic/pipe_64.mdl"
@@ -52060,7 +52049,7 @@ entity
 	"id" "272224"
 	"classname" "env_cubemap"
 	"sides" ""
-	"origin" "-64 576 320"
+	"origin" "16 512 320"
 	editor
 	{
 		"color" "0 0 255"
@@ -53309,6 +53298,48 @@ entity
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
 		"logicalpos" "[0 -8768]"
+	}
+}
+entity
+{
+	"id" "273426"
+	"classname" "env_cubemap"
+	"sides" ""
+	"origin" "352 848 448"
+	editor
+	{
+		"color" "0 0 255"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 -11768]"
+	}
+}
+entity
+{
+	"id" "273440"
+	"classname" "info_lighting"
+	"targetname" "E_pipe_b"
+	"origin" "136 376 256"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
+	}
+}
+entity
+{
+	"id" "273463"
+	"classname" "info_lighting"
+	"targetname" "E_pipe_y"
+	"origin" "562.715 364.407 264.25"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
 	}
 }
 cameras

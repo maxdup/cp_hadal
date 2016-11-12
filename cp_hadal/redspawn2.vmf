@@ -2,7 +2,7 @@ versioninfo
 {
 	"editorversion" "400"
 	"editorbuild" "7293"
-	"mapversion" "3100"
+	"mapversion" "3106"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -20,7 +20,7 @@ viewsettings
 world
 {
 	"id" "5"
-	"mapversion" "95"
+	"mapversion" "43"
 	"classname" "worldspawn"
 	"detailmaterial" "detail/detailsprites_2fort"
 	"detailvbsp" "detail_2fort.vbsp"
@@ -17854,6 +17854,82 @@ world
 			"visgroupautoshown" "1"
 		}
 	}
+	solid
+	{
+		"id" "277294"
+		side
+		{
+			"id" "22205"
+			"plane" "(-108 220 496) (-102 226 496) (114 10 496)"
+			"material" "TOOLS/TOOLSCLIP"
+			"uaxis" "[1 0 0 16] 0.25"
+			"vaxis" "[0 -1 0 16] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "22204"
+			"plane" "(-102 226 -512) (-108 220 -512) (108 4 -512)"
+			"material" "TOOLS/TOOLSCLIP"
+			"uaxis" "[1 0 0 16] 0.25"
+			"vaxis" "[0 -1 0 16] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "22203"
+			"plane" "(114 10 -512) (114 10 496) (-102 226 496)"
+			"material" "TOOLS/TOOLSCLIP"
+			"uaxis" "[0 1 0 -16] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "22202"
+			"plane" "(-108 220 -512) (-108 220 496) (108 4 496)"
+			"material" "TOOLS/TOOLSCLIP"
+			"uaxis" "[0 1 0 -16] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "22201"
+			"plane" "(108 4 -512) (108 4 496) (114 10 496)"
+			"material" "TOOLS/TOOLSCLIP"
+			"uaxis" "[-1 0 0 16] 0.25"
+			"vaxis" "[0 0 1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "22200"
+			"plane" "(-102 226 -512) (-102 226 496) (-108 220 496)"
+			"material" "TOOLS/TOOLSCLIP"
+			"uaxis" "[1 0 0 48] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		editor
+		{
+			"color" "0 176 213"
+			"visgroupshown" "1"
+			"visgroupautoshown" "1"
+		}
+	}
 	group
 	{
 		"id" "245454"
@@ -33749,7 +33825,7 @@ entity
 	"model" "models/props_farm/conduit02.mdl"
 	"skin" "0"
 	"solid" "6"
-	"origin" "-16 88 608"
+	"origin" "-16 88 632"
 	editor
 	{
 		"color" "255 255 0"
@@ -33767,10 +33843,10 @@ entity
 	"fadescale" "1"
 	"lightmapresolutionx" "32"
 	"lightmapresolutiony" "32"
-	"model" "models/props_farm/conduit_pipe02.mdl"
+	"model" "models/props_farm/conduit_pipe01.mdl"
 	"skin" "0"
 	"solid" "6"
-	"origin" "-16 88 656"
+	"origin" "-16 88 680"
 	editor
 	{
 		"color" "255 255 0"
@@ -36193,6 +36269,76 @@ entity
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
 		"logicalpos" "[0 0]"
+	}
+}
+entity
+{
+	"id" "273454"
+	"classname" "env_cubemap"
+	"sides" ""
+	"origin" "400 -80 752"
+	editor
+	{
+		"color" "0 0 255"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 -14268]"
+	}
+}
+entity
+{
+	"id" "277271"
+	"classname" "env_cubemap"
+	"sides" ""
+	"origin" "-560 480 576"
+	editor
+	{
+		"color" "0 0 255"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 -14268]"
+	}
+}
+entity
+{
+	"id" "277283"
+	"classname" "env_cubemap"
+	"sides" ""
+	"origin" "-592 -144 304"
+	editor
+	{
+		"color" "0 0 255"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 -14268]"
+	}
+}
+entity
+{
+	"id" "277287"
+	"classname" "env_cubemap"
+	"sides" ""
+	"origin" "-592 -144 512"
+	editor
+	{
+		"color" "0 0 255"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 -14268]"
+	}
+}
+entity
+{
+	"id" "277267"
+	"classname" "env_cubemap"
+	"sides" ""
+	"origin" "-224 352 576"
+	editor
+	{
+		"color" "0 0 255"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 13000]"
 	}
 }
 cameras

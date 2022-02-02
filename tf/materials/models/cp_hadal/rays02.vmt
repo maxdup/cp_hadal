@@ -1,0 +1,34 @@
+"unlittwotexture"
+{
+	"$baseTexture" "models\cp_hadal/rays_base"
+	"$texture2" "models\cp_hadal/rays_passthrough"
+	"$model" "1"
+	"$surfaceprop" "nodecal"
+	"$additive" "1"
+	
+	"$texoffset"	"[0 0]"
+	"$texscale" "1"
+	
+	"Proxies"
+	{	
+		"TextureScroll"
+		{
+			"texturescrollvar" "$basetexturetransform"
+			"texturescrollrate" -.02
+			"texturescrollangle" 100
+		}
+		"LinearRamp"
+		{
+			"initialValue" 0
+			"rate" -0.07
+			"resultVar"	"$texoffset[0]"
+		}
+		"TextureTransform"
+		{
+			"scaleVar" "$texscale"
+			"translateVar" "$texoffset"
+			"resultVar" "$texture2transform"
+		}
+		
+	}
+}

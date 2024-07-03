@@ -7,16 +7,11 @@
 	"$additive" "1"
 	
 	"$texoffset"	"[0 0]"
+	"$texoffset2"	"[0 0]"
 	"$texscale" "1"
 	
 	"Proxies"
 	{	
-		"TextureScroll"
-		{
-			"texturescrollvar" "$basetexturetransform"
-			"texturescrollrate" -.02
-			"texturescrollangle" 100
-		}
 		"LinearRamp"
 		{
 			"initialValue" 0
@@ -28,6 +23,18 @@
 			"scaleVar" "$texscale"
 			"translateVar" "$texoffset"
 			"resultVar" "$texture2transform"
+		}
+		"LinearRamp"
+		{
+			"initialValue" 0
+			"rate" -0.01
+			"resultVar"	"$texoffset2[1]"
+		}
+		"TextureTransform"
+		{
+			"scaleVar" "$texscale"
+			"translateVar" "$texoffset2"
+			"resultVar" "$basetexturetransform"
 		}
 	}
 }

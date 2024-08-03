@@ -1,7 +1,7 @@
 versioninfo
 {
 	"editorversion" "400"
-	"editorbuild" "8867"
+	"editorbuild" "8864"
 	"mapversion" "4033"
 	"formatversion" "100"
 	"prefab" "0"
@@ -64,24 +64,7 @@ light_plus
 	"soften_cosine" "0"
 	"debug" "0"
 	"cubemap" "1"
-}
-postprocess_plus
-{
-	"enable" "1"
-	"copied_from_controller" "1"
-	"bloom_scale" "1"
-	"bloom_exponent" "2.5"
-	"bloom_saturation" "1"
-	"auto_exposure_min" "0.5"
-	"auto_exposure_max" "2"
-	"tonemap_percent_target" "60"
-	"tonemap_percent_bright_pixels" "2"
-	"tonemap_min_avg_luminance" "3"
-	"tonemap_rate" "1"
-	"vignette_enable" "0"
-	"vignette_start" "1"
-	"vignette_end" "2"
-	"vignette_blur" "0"
+	"hdr" "0"
 }
 bgimages_plus
 {
@@ -36544,6 +36527,232 @@ entity
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
 		"logicalpos" "[2500 -8268]"
+	}
+}
+entity
+{
+	"id" "145119"
+	"classname" "prop_static"
+	"angles" "0 90 90"
+	"fademindist" "-1"
+	"fadescale" "1"
+	"lightmapresolutionx" "32"
+	"lightmapresolutiony" "32"
+	"model" "models/props_aquatic/pipe_256.mdl"
+	"skin" "1"
+	"solid" "6"
+	"origin" "-1592 1384 296.499"
+	editor
+	{
+		"color" "255 255 0"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
+	}
+}
+entity
+{
+	"id" "145111"
+	"classname" "prop_static"
+	"angles" "0 0 -180"
+	"fademindist" "-1"
+	"fadescale" "1"
+	"lightmapresolutionx" "32"
+	"lightmapresolutiony" "32"
+	"model" "models/props_aquatic/pipe_64.mdl"
+	"skin" "1"
+	"solid" "0"
+	"origin" "-1592 1464 472"
+	editor
+	{
+		"color" "255 255 0"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
+	}
+}
+entity
+{
+	"id" "145075"
+	"classname" "prop_static"
+	"angles" "0 0 180"
+	"fademindist" "-1"
+	"fadescale" "1"
+	"lightmapresolutionx" "32"
+	"lightmapresolutiony" "32"
+	"model" "models/props_aquatic/pipe_128.mdl"
+	"skin" "1"
+	"solid" "0"
+	"origin" "-1640 1496 472"
+	editor
+	{
+		"color" "255 255 0"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
+	}
+}
+entity
+{
+	"id" "145027"
+	"classname" "prop_static"
+	"angles" "90 180 0"
+	"fademindist" "-1"
+	"fadescale" "1"
+	"lightmapresolutionx" "32"
+	"lightmapresolutiony" "32"
+	"model" "models/props_aquatic/pipe_90degree.mdl"
+	"skin" "1"
+	"solid" "6"
+	"origin" "-1640 1400 456"
+	editor
+	{
+		"color" "255 255 0"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
+	}
+}
+entity
+{
+	"id" "145019"
+	"classname" "prop_static"
+	"angles" "0 180 90"
+	"fademindist" "-1"
+	"fadescale" "1"
+	"lightmapresolutionx" "32"
+	"lightmapresolutiony" "32"
+	"model" "models/props_aquatic/pipe_256.mdl"
+	"skin" "1"
+	"solid" "6"
+	"origin" "-1640 1384 296.499"
+	editor
+	{
+		"color" "255 255 0"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
+	}
+}
+entity
+{
+	"id" "126050"
+	"classname" "info_overlay"
+	"BasisNormal" "0.707107 -0.707107 0"
+	"BasisOrigin" "-1030.26 1798.91 520"
+	"BasisU" "0.707107 0.707107 0"
+	"BasisV" "0 0 1"
+	"EndU" "1"
+	"EndV" "0"
+	"fademindist" "-1"
+	"material" "hadal/sector_c_big"
+	"sides" "26390"
+	"StartU" "0"
+	"StartV" "1"
+	"uv0" "-64 -64 0"
+	"uv1" "-64 64 0"
+	"uv2" "64 64 0"
+	"uv3" "64 -64 0"
+	"origin" "-1030.26 1798.91 520"
+	editor
+	{
+		"color" "80 150 225"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
+	}
+}
+entity
+{
+	"id" "126664"
+	"classname" "env_sprite"
+	"disablereceiveshadows" "0"
+	"framerate" "10.0"
+	"GlowProxySize" "4"
+	"HDRColorScale" "1.0"
+	"maxdxlevel" "0"
+	"mindxlevel" "0"
+	"model" "materials/Sprites/light_glow03.vmt"
+	"renderamt" "255"
+	"rendercolor" "255 255 255"
+	"renderfx" "0"
+	"rendermode" "9"
+	"scale" ".75"
+	"origin" "-1120 1888 860"
+	editor
+	{
+		"color" "20 140 20"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 16000]"
+	}
+}
+entity
+{
+	"id" "126660"
+	"classname" "prop_static"
+	"angles" "0 0 0"
+	"disableshadows" "1"
+	"disablevertexlighting" "1"
+	"fademaxdist" "0.0"
+	"fademindist" "0.0"
+	"fadescale" "1"
+	"generatelightmaps" "0"
+	"lightmapresolutionx" "0"
+	"lightmapresolutiony" "0"
+	"model" "models/props_mining/industrial_ceiling_lamp02.mdl"
+	"skin" "0"
+	"solid" "0"
+	"origin" "-1120 1888 864"
+	editor
+	{
+		"color" "255 255 0"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[-3768 5000]"
+	}
+}
+entity
+{
+	"id" "126655"
+	"classname" "light"
+	"_light" "255 255 255 40"
+	"_lightHDR" "-1 -1 -1 1"
+	"_lightscaleHDR" "1"
+	"_quadratic_attn" "1"
+	"origin" "-1120 1888 849.368"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 -15768]"
+	}
+}
+entity
+{
+	"id" "126650"
+	"classname" "light_spot"
+	"_cone" "55"
+	"_constant_attn" "0"
+	"_distance" "0"
+	"_exponent" "1"
+	"_inner_cone" "35"
+	"_light" "255 255 255 200"
+	"_lightHDR" "-1 -1 -1 1"
+	"_lightscaleHDR" "1"
+	"_linear_attn" "1"
+	"_quadratic_attn" "0"
+	"angles" "-90 270 0"
+	"pitch" "-90"
+	"style" "0"
+	"origin" "-1120 1888 858"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 -16268]"
 	}
 }
 entity
@@ -125454,232 +125663,6 @@ entity
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
 		"logicalpos" "[0 15000]"
-	}
-}
-entity
-{
-	"id" "126650"
-	"classname" "light_spot"
-	"_cone" "55"
-	"_constant_attn" "0"
-	"_distance" "0"
-	"_exponent" "1"
-	"_inner_cone" "35"
-	"_light" "255 255 255 200"
-	"_lightHDR" "-1 -1 -1 1"
-	"_lightscaleHDR" "1"
-	"_linear_attn" "1"
-	"_quadratic_attn" "0"
-	"angles" "-90 270 0"
-	"pitch" "-90"
-	"style" "0"
-	"origin" "-1120 1888 858"
-	editor
-	{
-		"color" "220 30 220"
-		"visgroupshown" "1"
-		"visgroupautoshown" "1"
-		"logicalpos" "[0 -16268]"
-	}
-}
-entity
-{
-	"id" "126655"
-	"classname" "light"
-	"_light" "255 255 255 40"
-	"_lightHDR" "-1 -1 -1 1"
-	"_lightscaleHDR" "1"
-	"_quadratic_attn" "1"
-	"origin" "-1120 1888 849.368"
-	editor
-	{
-		"color" "220 30 220"
-		"visgroupshown" "1"
-		"visgroupautoshown" "1"
-		"logicalpos" "[0 -15768]"
-	}
-}
-entity
-{
-	"id" "126660"
-	"classname" "prop_static"
-	"angles" "0 0 0"
-	"disableshadows" "1"
-	"disablevertexlighting" "1"
-	"fademaxdist" "0.0"
-	"fademindist" "0.0"
-	"fadescale" "1"
-	"generatelightmaps" "0"
-	"lightmapresolutionx" "0"
-	"lightmapresolutiony" "0"
-	"model" "models/props_mining/industrial_ceiling_lamp02.mdl"
-	"skin" "0"
-	"solid" "0"
-	"origin" "-1120 1888 864"
-	editor
-	{
-		"color" "255 255 0"
-		"visgroupshown" "1"
-		"visgroupautoshown" "1"
-		"logicalpos" "[-3768 5000]"
-	}
-}
-entity
-{
-	"id" "126664"
-	"classname" "env_sprite"
-	"disablereceiveshadows" "0"
-	"framerate" "10.0"
-	"GlowProxySize" "4"
-	"HDRColorScale" "1.0"
-	"maxdxlevel" "0"
-	"mindxlevel" "0"
-	"model" "materials/Sprites/light_glow03.vmt"
-	"renderamt" "255"
-	"rendercolor" "255 255 255"
-	"renderfx" "0"
-	"rendermode" "9"
-	"scale" ".75"
-	"origin" "-1120 1888 860"
-	editor
-	{
-		"color" "20 140 20"
-		"visgroupshown" "1"
-		"visgroupautoshown" "1"
-		"logicalpos" "[0 16000]"
-	}
-}
-entity
-{
-	"id" "126050"
-	"classname" "info_overlay"
-	"BasisNormal" "0.707107 -0.707107 0"
-	"BasisOrigin" "-1030.26 1798.91 520"
-	"BasisU" "0.707107 0.707107 0"
-	"BasisV" "0 0 1"
-	"EndU" "1"
-	"EndV" "0"
-	"fademindist" "-1"
-	"material" "hadal/sector_c_big"
-	"sides" "26390"
-	"StartU" "0"
-	"StartV" "1"
-	"uv0" "-64 -64 0"
-	"uv1" "-64 64 0"
-	"uv2" "64 64 0"
-	"uv3" "64 -64 0"
-	"origin" "-1030.26 1798.91 520"
-	editor
-	{
-		"color" "80 150 225"
-		"visgroupshown" "1"
-		"visgroupautoshown" "1"
-		"logicalpos" "[0 0]"
-	}
-}
-entity
-{
-	"id" "145019"
-	"classname" "prop_static"
-	"angles" "0 180 90"
-	"fademindist" "-1"
-	"fadescale" "1"
-	"lightmapresolutionx" "32"
-	"lightmapresolutiony" "32"
-	"model" "models/props_aquatic/pipe_256.mdl"
-	"skin" "1"
-	"solid" "6"
-	"origin" "-1640 1384 296.499"
-	editor
-	{
-		"color" "255 255 0"
-		"visgroupshown" "1"
-		"visgroupautoshown" "1"
-		"logicalpos" "[0 0]"
-	}
-}
-entity
-{
-	"id" "145027"
-	"classname" "prop_static"
-	"angles" "90 180 0"
-	"fademindist" "-1"
-	"fadescale" "1"
-	"lightmapresolutionx" "32"
-	"lightmapresolutiony" "32"
-	"model" "models/props_aquatic/pipe_90degree.mdl"
-	"skin" "1"
-	"solid" "6"
-	"origin" "-1640 1400 456"
-	editor
-	{
-		"color" "255 255 0"
-		"visgroupshown" "1"
-		"visgroupautoshown" "1"
-		"logicalpos" "[0 0]"
-	}
-}
-entity
-{
-	"id" "145075"
-	"classname" "prop_static"
-	"angles" "0 0 180"
-	"fademindist" "-1"
-	"fadescale" "1"
-	"lightmapresolutionx" "32"
-	"lightmapresolutiony" "32"
-	"model" "models/props_aquatic/pipe_128.mdl"
-	"skin" "1"
-	"solid" "0"
-	"origin" "-1640 1496 472"
-	editor
-	{
-		"color" "255 255 0"
-		"visgroupshown" "1"
-		"visgroupautoshown" "1"
-		"logicalpos" "[0 0]"
-	}
-}
-entity
-{
-	"id" "145111"
-	"classname" "prop_static"
-	"angles" "0 0 -180"
-	"fademindist" "-1"
-	"fadescale" "1"
-	"lightmapresolutionx" "32"
-	"lightmapresolutiony" "32"
-	"model" "models/props_aquatic/pipe_64.mdl"
-	"skin" "1"
-	"solid" "0"
-	"origin" "-1592 1464 472"
-	editor
-	{
-		"color" "255 255 0"
-		"visgroupshown" "1"
-		"visgroupautoshown" "1"
-		"logicalpos" "[0 0]"
-	}
-}
-entity
-{
-	"id" "145119"
-	"classname" "prop_static"
-	"angles" "0 90 90"
-	"fademindist" "-1"
-	"fadescale" "1"
-	"lightmapresolutionx" "32"
-	"lightmapresolutiony" "32"
-	"model" "models/props_aquatic/pipe_256.mdl"
-	"skin" "1"
-	"solid" "6"
-	"origin" "-1592 1384 296.499"
-	editor
-	{
-		"color" "255 255 0"
-		"visgroupshown" "1"
-		"visgroupautoshown" "1"
-		"logicalpos" "[0 0]"
 	}
 }
 cameras
